@@ -1,0 +1,67 @@
+/* HEADER FOR ALL PAGES */
+header {
+background-color: aquamarine;
+}
+
+/*header * {
+    background-color: transparent;
+    }
+    */
+
+ /* THE TITLE */
+#pages-header {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+   /* margin: 30px, 0, 50px, 0;*/
+
+  }
+  
+  /* THE WHOLE NAVIGATION MENU LIST */
+  /* help Mira and w3schools for moving menu bar*/
+  .header-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+    gap: 1rem;
+  
+    height: 15%;
+    z-index: 2; /* Learned of z-index w3schools*/
+
+    
+  }
+  
+  /* each list item */
+  li {
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  /* navigation links */
+  #menu-items {
+    width: 15%;
+  }
+  
+  /* the logotype */
+  #logo_icon {
+    width: 100px;
+    height: auto;
+    margin-right: 70px;
+  }
+  
+  /* INDIVIDUAL MENU ITEMS */
+  /* the links inside the navigation menu */
+  a {
+    color: black;
+  }
