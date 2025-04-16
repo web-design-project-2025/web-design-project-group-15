@@ -10,7 +10,7 @@ header {
  #header-logoIcon {
     width: 100px;
     height: auto;
-    padding-left: 10%;
+    padding-left: 15%;
   }
 
  /* THE TITLE */
@@ -21,7 +21,7 @@ header {
     text-align: center;
     font-size: 3rem;
     color: rgb(2,1,34);
-    padding-left: 5%;
+    padding-left: 7%;
   }
   
   /* THE NAVIGATION MENU */
@@ -29,7 +29,7 @@ header {
     display: flex;
     list-style: none;
     gap: 2rem;
-    padding-left: 30%;
+    padding-left: 60%;
 
 
     font-family: "Special Elite", system-ui;
@@ -37,15 +37,15 @@ header {
     font-style: normal;
   }
   
-/* the navigation buttons */
+/* the navigation buttons 
   #menu-items {
-    background-color: rgb(2,1,34);
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
+    
   }
+  */
   
   /* the links inside the navigation buttons */
   a {
-    color: rgb(221,219,241);
+    color: rgb(2,1,34);
   }
+
+  /* RESPONSIVE LAYOUT */
