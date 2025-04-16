@@ -15,6 +15,11 @@ footer {
 .Footer-running-text {
   list-style: none;
   font-family: "PT serif", serif;
+  padding-left: 0;
+  padding-right: 5px;
+}
+.Footer-links-text {
+  font-family: "PT serif", serif;
 }
 .footer-2nd-header {
   font-family: "Special Elite", serif;
@@ -23,8 +28,14 @@ footer {
 .footer-1st-column {
   text-align: center;
   font-family: "PT serif", serif;
+  padding-right: 10px;
+}
+.footer-logo {
+  align-content: right;
 }
 #logo-footer {
-  width: 100px;
+  width: 130px;
   padding-top: 10px;
+  align-items: right;
+  /* padding-left: 140px; */
 }
