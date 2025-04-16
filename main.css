@@ -1,0 +1,24 @@
+/* Footer */
+footer {
+  background-color: rgb(242, 166, 24);
+}
+.footer-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-site-name {
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer-2nd-header {
+  font-family: "PT serif", serif;
+  font-style: bold;
+}
+.footer-1st-column {
+  text-align: center;
+}
+#logo-footer {
+  width: 100px;
+  padding-top: 10px;
+}
