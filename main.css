@@ -11,12 +11,18 @@ footer {
   font-size: 1.5rem;
   text-align: center;
 }
-.footer-2nd-header {
+
+.Footer-running-text {
+  list-style: none;
   font-family: "PT serif", serif;
-  font-style: bold;
+}
+.footer-2nd-header {
+  font-family: "Special Elite", serif;
+  font-size: 1.3rem;
 }
 .footer-1st-column {
   text-align: center;
+  font-family: "PT serif", serif;
 }
 #logo-footer {
   width: 100px;
