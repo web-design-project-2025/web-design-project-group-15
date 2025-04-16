@@ -31,7 +31,13 @@ footer {
   padding-right: 10px;
 }
 .footer-logo {
+  display: flex;
   align-content: right;
+  justify-content: center;
+  /* width: 50px; */
+  max-width: 100%;
+  height: auto;
+  place-items: center;
 }
 #logo-footer {
   width: 130px;
