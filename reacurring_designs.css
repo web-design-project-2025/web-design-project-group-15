@@ -1,0 +1,108 @@
+/* ----- HEADER ----- */
+/* ENTIRE HEADER SECTION */
+header {
+    background-color: rgb(242,166,24);
+    display: flex;
+    align-items: center;
+}
+
+/* THE LOGOTYPE */
+#header-logoIcon {
+    width: 150px;
+    height: auto;
+    padding-left: 20%;
+}
+
+/* BOTH THE TITLE AND THE NAVIGATION MENU */
+.header-text {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* THE TITLE */
+#header-title {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: rgb(2,1,34);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+  
+/* THE NAVIGATION MENU */
+.header-ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+  
+/* the links inside the navigation buttons */
+a {
+    color: rgb(2,1,34);
+}
+
+/* ----- FOOTER ----- */
+footer {
+  background-color: rgb(242, 166, 24);
+}
+.footer-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-site-name {
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Footer-running-text {
+  list-style: none;
+  font-family: "PT serif", serif;
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.Footer-links-text {
+  font-family: "PT serif", serif;
+}
+
+.footer-2nd-header {
+  font-family: "Special Elite", serif;
+  font-size: 1.3rem;
+}
+
+.footer-1st-column {
+  text-align: center;
+  font-family: "PT serif", serif;
+  padding-right: 10px;
+}
+
+.footer-logo {
+  display: flex;
+  align-content: right;
+  justify-content: center;
+  /* width: 50px; */
+  max-width: 100%;
+  height: auto;
+  place-items: center;
+}
+
+#logo-footer {
+  width: 130px;
+  align-items: right;
+  /* padding-left: 140px; */
+}
+
+  /* RESPONSIVE LAYOUT */
