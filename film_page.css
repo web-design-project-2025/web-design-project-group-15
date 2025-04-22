@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(2, 1, 34);
+}
+
+.film-page-titles {
+  color: rgb(221, 219, 241);
+  font-family: "Abril Fatface", serif;
+  font-size: 4rem;
+  text-align: center;
+}
+.film-synopsis {
+  padding-left: 100px;
+  /* width: 500px; */
+  text-align: center;
+  font-family: "PT serif", serif;
+  color: rgb(221, 219, 241);
+}
+
+.film-page-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* placement of the image */
+.poster-placement {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+#film-poster-images {
+  align-items: center;
+  width: 60%;
+  height: auto;
+}
