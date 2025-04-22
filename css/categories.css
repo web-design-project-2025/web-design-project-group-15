@@ -1,0 +1,49 @@
+/* ----- CATEGORIES PAGE ----- */
+  
+/* CATEGORY HEADINGS */
+    .categories {
+        display: flex;
+        padding-top: 60px;
+        align-items: center;
+    }
+
+  /* text */
+  .category-headings {
+    color: rgb(221,219,241);
+    padding-left: 2%;
+  
+    font-family: "Abril Fatface", serif;
+    font-size: 1.5rem;
+  }
+  
+    /* image */
+  .category-image {
+    width: 140px;
+    height: 40px;
+    padding-left: 30px;
+  }
+
+  /* rotating images */
+  /* making the code simplier for the rotating images is done with the help of ChatGPT */
+    /* https://chatgpt.com/c/6807f10a-01ec-800e-af3f-739e6214126a */
+  .rotate-chickflick {
+    transform: rotate(6deg);
+  }
+  .rotate-horror {
+    transform: rotate(-6deg);
+  }
+  
+  /* ALL THE MOVIE IMAGES */
+  .homepage-movie-images {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+  
+  /* individual movie images */
+  .homepage-movie-image {
+    width: 50%;
+    margin: 0.5%;
+  }
+  
+    /* RESPONSIVE LAYOUT */
