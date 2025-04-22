@@ -24,10 +24,26 @@ h2.homepage-heading {
   font-size: 1.5rem;
 }
 
-/* category headings */
+/* CATEGORY HEADINGS */
 .homepage-category-headings {
   color: rgb(221,219,241);
-  
+  padding-left: 2%;
+
   font-family: "Abril Fatface", serif;
   font-size: 1.5rem;
 }
+
+/* ALL THE MOVIE IMAGES */
+.homepage-movie-images {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+/* individual movie images */
+.homepage-movie-image {
+  width: 50%;
+  margin: 0.5%;
+}
+
+  /* RESPONSIVE LAYOUT */

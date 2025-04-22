@@ -55,6 +55,7 @@ a {
 /* ----- FOOTER ----- */
 footer {
   background-color: rgb(242, 166, 24);
+  margin-top: 3%;
 }
 .footer-layout {
   display: grid;
