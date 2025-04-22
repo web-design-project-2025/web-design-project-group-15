@@ -1,8 +1,9 @@
-body {
+main {
   background-color: rgb(2, 1, 34);
 }
 
 .film-page-titles {
+  padding-left: 100px;
   color: rgb(221, 219, 241);
   font-family: "Abril Fatface", serif;
   font-size: 4rem;
@@ -11,7 +12,7 @@ body {
 .film-synopsis {
   padding-left: 100px;
   /* width: 500px; */
-  text-align: center;
+  text-align: left;
   font-family: "PT serif", serif;
   color: rgb(221, 219, 241);
 }
