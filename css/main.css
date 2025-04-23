@@ -1,12 +1,12 @@
 /* ----- HOMEPAGE ----- */
 
 body {
-  background-color: rgb(2,1,34);
+  background-color: rgb(2, 1, 34);
 }
 
 /* BOTH THE HEADINGS */
 .homepage-heading {
-  color: rgb(221,219,241);
+  color: rgb(221, 219, 241);
   text-align: center;
 
   font-family: "Special Elite", system-ui;
@@ -26,7 +26,7 @@ h2.homepage-heading {
 
 /* CATEGORY HEADINGS */
 .homepage-category-headings {
-  color: rgb(221,219,241);
+  color: rgb(221, 219, 241);
   padding-left: 2%;
 
   font-family: "Abril Fatface", serif;
@@ -46,4 +46,4 @@ h2.homepage-heading {
   margin: 0.5%;
 }
 
-  /* RESPONSIVE LAYOUT */
+/* RESPONSIVE LAYOUT */

@@ -1,70 +1,69 @@
 /* ----- BACKGROUND ----- */
 body {
-  background-color: rgb(2,1,34);
+  background-color: rgb(2, 1, 34);
 }
 
 /* ----- HEADER ----- */
 /* ENTIRE HEADER SECTION */
 header {
-    background-color: rgb(242,166,24);
-    display: flex;
-    align-items: center;
+  background-color: rgb(242, 166, 24);
+  display: flex;
+  align-items: center;
 }
 
 /* THE LOGOTYPE */
 #header-logoIcon {
-    width: 150px;
-    height: auto;
-    padding-left: 20%;
+  width: 150px;
+  height: auto;
+  padding-left: 20%;
 }
 
 /* BOTH THE TITLE AND THE NAVIGATION MENU */
 .header-text {
-    flex: 1;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* THE TITLE */
 #header-title {
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 5rem;
-    color: rgb(2,1,34);
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  color: rgb(2, 1, 34);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* the title link */
 #header-title-link {
   text-decoration: none;
 }
-  
+
 /* THE NAVIGATION MENU */
 .header-ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
 
-
-    font-family: "Special Elite", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
 }
-  
+
 /* the navigation links */
 a {
-    color: rgb(2,1,34);
+  color: rgb(2, 1, 34);
 }
 
 /* ----- PAGE HEADINGS ----- */
 .page-heading {
-  color: rgb(221,219,241);
+  color: rgb(221, 219, 241);
   text-align: center;
   font-size: 3rem;
 
@@ -83,10 +82,11 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.footer-site-name {
+#footer-site-name {
   font-family: "Abril Fatface", serif;
   font-size: 1.5rem;
   text-align: center;
+  text-decoration: none;
 }
 
 .Footer-running-text {
@@ -127,4 +127,4 @@ footer {
   /* padding-left: 140px; */
 }
 
-  /* RESPONSIVE LAYOUT */
+/* RESPONSIVE LAYOUT */

@@ -2,9 +2,9 @@
 
 /* ALL THE MOVIE IMAGES */
 .specific-category-movie-images {
-    display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  justify-items: center;
 }
 
 /* individual movie images */
