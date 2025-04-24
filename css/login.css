@@ -13,10 +13,7 @@ main {
   align-items: center;
   color: rgb(221, 219, 241);
 }
-/* .loginButton {
-  width: 100%;
-  align-items: center;
-} */
+
 #login-button {
   display: flex;
   justify-content: center;
