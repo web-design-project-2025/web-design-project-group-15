@@ -35,6 +35,7 @@ h2.homepage-heading {
 
 /* ALL THE MOVIE IMAGES */
 .homepage-movie-images {
+  /* width: 20%; */
   display: flex;
   flex-direction: row;
   overflow: auto;
@@ -42,8 +43,9 @@ h2.homepage-heading {
 
 /* individual movie images */
 .homepage-movie-image {
-  width: 50%;
-  margin: 0.5%;
+  width: 20%;
+  height: auto;
+  margin: 1%;
 }
 
 /* RESPONSIVE LAYOUT */
