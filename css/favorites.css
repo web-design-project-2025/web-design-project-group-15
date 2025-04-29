@@ -1,0 +1,10 @@
+.movie-favorites-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+}
+#favorites-grid {
+  width: 50%;
+  margin: 0.5%;
+  padding: 1%;
+}
