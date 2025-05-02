@@ -39,11 +39,12 @@ h2.homepage-heading {
   display: flex;
   flex-direction: row;
   overflow: auto;
+  gap: 3%;
 }
 
 /* individual movie images */
 .homepage-movie-image {
-  width: 20%;
+  width: 270px;
   height: auto;
   margin: 1%;
 }
