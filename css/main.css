@@ -44,8 +44,8 @@ h2.homepage-heading {
 
 /* individual movie images */
 .homepage-movie-image {
-  width: 270px;
-  height: auto;
+  width: auto;
+  height: 430px;
   margin: 1%;
 }
 
