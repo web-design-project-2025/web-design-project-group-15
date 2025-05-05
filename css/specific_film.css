@@ -1,0 +1,156 @@
+/* ----- SPECIFIC FILM PAGE ----- */
+
+/* THE WHOLE PRODUCT PAGE */
+.specific-film-container-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.specific-film-movie-image {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+/* "OPENING ARGUMENTS" */
+/* title */
+.opening-arguments {
+  margin-left: 40%;
+
+  color: rgb(242, 166, 24);
+  font-size: 1.5rem;
+
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* text */
+.opening-arguments-text {
+  font-family: "PT serif", serif;
+  margin-left: 40%;
+  color: rgb(221, 219, 241);
+}
+
+/* MOVIE POSTER */
+.specific-film-poster-image {
+  margin-left: 40%;
+  margin-top: 3%;
+  width: 20%;
+}
+
+/* Help taken/dropdown funciton learned from w3shools
+https://www.w3schools.com/css/css_dropdowns.asp*/
+
+/* ALL DROPDOWN BUTTONS */
+/*.specific-film-buttons {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* "EVIDENCE" DROPDOWN */
+/* button */
+.evidence {
+  align-self: flex-start;
+  margin-left: 20%;
+  margin-top: 3%;
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  color: rgb(242, 166, 24);
+  font-size: 1.5rem;
+
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* dropdown content */
+.dropdown-evidence {
+  display: none;
+  font-family: "PT serif", serif;
+  color: rgb(221, 219, 241);
+}
+
+/* active state */
+.dropdown-evidence-show {
+  display: block;
+  text-align: start;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* "FINAL VERDICT" */
+/* title */
+.final-verdict {
+  margin-left: 20%;
+  margin-bottom: 0;
+
+  color: rgb(242, 166, 24);
+  font-size: 1.5rem;
+
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* both text & image */
+.final-verdict-container {
+  display: flex;
+  align-items: center;
+}
+
+/* text */
+.final-verdict-text {
+  font-family: "PT serif", serif;
+  margin-left: 20%;
+  color: rgb(221, 219, 241);
+  font-size: 1.3rem;
+}
+
+/* image */
+.specific-film-verdict-image {
+  width: 10%;
+  padding-left: 2%;
+}
+
+/* rotating images */
+/* making the code simplier for the rotating images is done with the help of ChatGPT */
+/* https://chatgpt.com/c/6807f10a-01ec-800e-af3f-739e6214126a */
+.rotate-image {
+  transform: rotate(-6deg);
+}
+
+/* "APPEAL THIS" DROPDOWN */
+/* button */
+.appeal-this {
+  align-self: flex-start;
+  margin-left: 20%;
+  cursor: pointer;
+
+  border: none;
+  background: none;
+  color: rgb(242, 166, 24);
+  font-size: 1.5rem;
+
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* dropdown content */
+.dropdown-appeal-this {
+  display: none;
+  font-family: "PT serif", serif;
+  color: rgb(221, 219, 241);
+}
+
+/* active state */
+.dropdown-appeal-this-show {
+  display: block;
+  text-align: start;
+  margin-left: 20%;
+  margin-right: 20%;
+}
