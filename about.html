@@ -57,19 +57,45 @@
     </header>
 
     <main>
-      <h1 class="page-heading">ABOUT</h1>
+        <h1 class="page-heading">ABOUT</h1>
+      
+        <div class="about-founders-group">
+          <div class="founder">
+            <img class="about-founders-image" src="img/alva.png" alt="Alva" />
+            <p class="about-name">ALVA</p>
+          </div>
+          <div class="founder">
+            <img class="about-founders-image" src="img/lynn.png" alt="Lynn" />
+            <p class="about-name">LYNN</p>
+          </div>
+          <div class="founder">
+            <img class="about-founders-image" src="img/panna.png" alt="Panna" />
+            <p class="about-name">PANNA</p>
+          </div>
+        </div>.about-founders-group {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 2rem;
+}
 
-      <div class="about-founders-images">
-        <img class="about-founders-image" src="img/alva.png" alt="Alva" />
-        <img class="about-founders-image" src="img/lynn.png" alt="Lynn" />
-        <img class="about-founders-image" src="img/panna.png" alt="Panna" />
-      </div>
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This ensures the name is centered under the image */
+}
 
-      <div class="about-names">
-        <p>ALVA</p>
-        <p>LYNN</p>
-        <p>PANNA</p>
-      </div>
+.about-founders-image {
+  width: 250px;
+  margin-bottom: 0.5rem;
+}
+
+.about-name {
+  color: rgb(242, 166, 24);
+  font-family: "Abril Fatface", serif;
+  font-size: 4rem;
+  margin: 0;
+}
 
       <div class="about-text">
         <p>THREE NEW MEDIA DESIGN STUDENTS.</p>
