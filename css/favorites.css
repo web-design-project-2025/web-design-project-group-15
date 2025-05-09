@@ -1,0 +1,52 @@
+.my-favourites-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  margin: 0 auto;
+  justify-items: center; 
+  width: 100%; 
+}
+
+.favourites-grid {
+margin: 100px;
+}
+
+.homepage-movie-image {
+  width: auto;
+  height: 430px;
+}
+
+.witness-heading {
+  font-family: 'Special Elite', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgb(221, 219, 241);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.description-text {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5rem;
+  color: rgb(221, 219, 241);
+  text-align: center;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.respawn-logo {
+  font-family: 'Abril Fatface', serif;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(242, 166, 24);
+  letter-spacing: 1px;
+}
