@@ -6,16 +6,20 @@ fetch("js/movies.json")
     const upcomingTrials = document.getElementById("upcoming-trials");
 
     data.catalog.forEach((movie) => {
+      const link = document.createElement("a");
+      link.href = `specificFilm.html?id=${movie.movieID}`;
+
       const movieImage = document.createElement("img");
-      movieImage.src = movie.Poster;
+      movieImage.src = movie.poster;
       movieImage.alt = movie.movieName;
       movieImage.classList.add("homepage-movie-image");
+      link.appendChild(movieImage);
       //placing images on the html(kinda)
-      if (movie.Category === "Serious Caroussel") {
-        recentVerdicts.appendChild(movieImage);
+      if (movie.category === "Serious Caroussel") {
+        recentVerdicts.appendChild(link);
       }
-      if (movie.Category === "Girly Caroussel") {
-        upcomingTrials.appendChild(movieImage);
+      if (movie.category === "Girly Caroussel") {
+        upcomingTrials.appendChild(link);
       }
     });
   })
