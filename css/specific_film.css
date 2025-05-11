@@ -154,3 +154,47 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
   margin-left: 20%;
   margin-right: 20%;
 }
+
+/* like and dislike buttons */
+
+.appeal-section {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+
+.appeal-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.appeal-buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.appeal-text {
+  margin: 0;
+  flex: 1;
+  font-family: "PT Serif", serif;
+  color: rgb(221, 219, 241);
+  line-height: 1.6;
+}
+
+.appeal-buttons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #eee;
+  transition: background-color 0.3s;
+}
+
+.appeal-buttons button:hover {
+  background-color: rgb(2, 1, 34);
+}
