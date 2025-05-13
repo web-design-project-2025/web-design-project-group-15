@@ -1,0 +1,172 @@
+{
+  "catalog": [
+    {
+      "movieID": 1,
+      "poster": "img/Posters/TheShakeshaw.jpg",
+      "synopsis": "Andy Dufresne (Tim Robbins)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 2,
+      "poster": "img/Posters/ForestGump.jpg",
+      "synopsis": "Slow-witted Forrest Gump (Tom Hanks)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 3,
+      "poster": "img/Posters/TheGodfather.jpg",
+      "synopsis": "Widely regarded as one of the greatest films...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 4,
+      "poster": "img/Posters/PulpFiction.jpg",
+      "synopsis": "Vincent Vega (John Travolta) and Jules Winnfield...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 5,
+      "poster": "img/Posters/Inception.JPG",
+      "synopsis": "Dom Cobb (Leonardo DiCaprio) is a thief...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 6,
+      "poster": "img/Posters/FightClub.jpg",
+      "synopsis": "A depressed man (Edward Norton)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 7,
+      "poster": "img/Posters/Interstellar.jpg",
+      "synopsis": "n Earth's future, a global crop blight...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 8,
+      "poster": "img/Posters/TheMatrixResurrections.jpg",
+      "synopsis": "To find out if his reality is a physical or mental construct...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 9,
+      "poster": "img/Posters/MeanGirls.jpg",
+      "synopsis": "Teenage Cady Heron (Lindsay Lohan)...",
+      "picture": "img/movie-pictures/meangirls-picture.jpg",
+      "evidence": ""
+    },
+    {
+      "movieID": 10,
+      "poster": "img/Posters/10ThingsIHateAboutYou.jpg",
+      "synopsis": "Kat Stratford is beautiful, smart and quite abrasive...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 11,
+      "poster": "img/Posters/AnyoneButYou.jpg",
+      "synopsis": "Despite having an amazing first date...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 12,
+      "poster": "img/Posters/HowToLoseAGuyIn10Days.jpg",
+      "synopsis": "An advice columnist, Andie Anderson (Kate Hudson)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 13,
+      "poster": "img/Posters/Clueless.jpg",
+      "synopsis": "Shallow, rich and socially successful Cher (Alicia Silverstone)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 14,
+      "poster": "img/Posters/EasyA.jpg",
+      "synopsis": "Prompted by her popular best friend...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 15,
+      "poster": "img/Posters/500DaysOfSummer.jpg",
+      "synopsis": "Tom (Joseph Gordon-Levitt), greeting-card writer...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 16,
+      "poster": "img/Posters/TheDuff.jpg",
+      "synopsis": "Frumpy high-school senior Bianca (Mae Whitman)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 17,
+      "poster": "img/Posters/TheEmojiMovie.jpg",
+      "synopsis": "Hidden inside a smartphone...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 18,
+      "poster": "img/Posters/WallE.jpg",
+      "synopsis": "WALL-E, short for Waste Allocation Load Lifter Earth-class...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 19,
+      "poster": "img/Posters/TheLionKing.jpg",
+      "synopsis": "Simba idolizes his father, King Mufasa...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 20,
+      "poster": "img/Posters/ChickenLittle.jpg",
+      "synopsis": "Young Chicken Little (Mark Dindal)...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 21,
+      "poster": "img/Posters/HowToTrainYourDragon.jpg",
+      "synopsis": "Hiccup (Chris Sanders) is a Norse teenager...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 22,
+      "poster": "img/Posters/Minions.jpg",
+      "synopsis": "Evolving from single-celled yellow organisms...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 23,
+      "poster": "img/Posters/TheLegoMovie.jpg",
+      "synopsis": "Emmet (Chris Pratt), an ordinary LEGO figurine...",
+      "picture": "",
+      "evidence": ""
+    },
+    {
+      "movieID": 24,
+      "poster": "img/Posters/Frozen2.jpg",
+      "synopsis": "Elsa the Snow Queen has an extraordinary gift...",
+      "picture": "",
+      "evidence": ""
+    }
+  ]
+}

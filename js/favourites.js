@@ -1,4 +1,4 @@
-fetch("js/movies.json")
+fetch("json/movies.json")
   .then((response) => response.json())
   .then((data) => {
     const favourites = document.getElementById("favourites");
@@ -12,7 +12,6 @@ fetch("js/movies.json")
       if (movie.Category === "Serious Caroussel") {
         favourites.appendChild(movieImage);
       }
-    
     });
   })
   //  checking for errors

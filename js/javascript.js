@@ -1,5 +1,5 @@
 //getting the info drom the json files
-fetch("js/movies.json")
+fetch("json/movies.json")
   .then((response) => response.json())
   .then((data) => {
     const recentVerdicts = document.getElementById("recent-verdicts");
@@ -7,7 +7,7 @@ fetch("js/movies.json")
 
     data.catalog.forEach((movie) => {
       const link = document.createElement("a");
-      link.href = `specificFilm.html?id=${movie.movieID}`;
+      link.href = `specific_film.html?id=${movie.movieID}`;
 
       const movieImage = document.createElement("img");
       movieImage.src = movie.poster;
