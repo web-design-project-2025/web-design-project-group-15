@@ -133,12 +133,14 @@ footer {
   flex-direction: row;
   overflow: auto;
   gap: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* individual movie images */
 .homepage-movie-image {
   width: auto;
-  height: 430px;
+  height: 300px;
   margin: 1%;
 }
 
