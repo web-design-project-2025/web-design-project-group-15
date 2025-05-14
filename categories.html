@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="css/categories.css" />
     <link rel="stylesheet" href="css/reacurring_designs.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,12 +19,11 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Categories - Cinema Courtroom</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <!-- logotype -->
       <a href="index.html">
         <img
           id="header-logoIcon"
@@ -34,16 +31,10 @@
           alt="website logotype"
         />
       </a>
-      <!---->
-
       <div class="header-text">
-        <!-- title -->
         <a href="index.html" id="header-title-link">
           <h1 id="header-title">CINEMA COURTROOM</h1>
         </a>
-        <!---->
-
-        <!-- navigation bar -->
         <nav>
           <ul class="header-ul">
             <li><a id="menu-items" href="categories.html">CATEGORIES</a></li>
@@ -52,114 +43,79 @@
             <li><a id="menu-items" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
-        <!---->
       </div>
     </header>
 
     <main>
-      <h1 class="page-heading">CATEGORIES</h1>
-
       <!-- CATEGORY 1 (CHICKFLICK) -->
-      <div class="categories">
-        <h2 class="category-headings">GUILTY OF BEING:</h2>
-        <a href="chickflick.html">
-          <img
-            class="category-image rotate-chickflick"
-            src="img/chickflick.png"
-            alt="Chickflick"
-          />
-        </a>
-      </div>
-
-      <div class="homepage-movie-images" id="chickFlick"></div>
-      <!---->
+      <section class="category-section">
+        <div class="categories">
+          <h2 class="category-headings">Feeling like gossips and teenage girl drama?</h2>
+          <a href="chickflick.html">
+            <img
+              class="category-image rotate-chickflick"
+              src="img/chickflick.png"
+              alt="Chickflick"
+            />
+          </a>
+        </div>
+        <div class="movie-container">
+          <button class="scroll-button left" onclick="scrollCategory('chickFlick', -1)">❮</button>
+          <div class="homepage-movie-images" id="chickFlick"></div>
+          <button class="scroll-button right" onclick="scrollCategory('chickFlick', 1)">❯</button>
+        </div>
+      </section>
 
       <!-- CATEGORY 2 (HORROR) -->
-      <div class="categories">
-        <h2 class="category-headings">GUILTY OF BEING:</h2>
-        <img
-          class="category-image rotate-horror"
-          src="img/horror.png"
-          alt="Horror"
-        />
-      </div>
-      <div class="homepage-movie-images" id="horror"></div>
+      <section class="category-section">
+        <div class="categories">
+          <h2 class="category-headings">Wait... Did you hear that too???</h2>
+          <img
+            class="category-image rotate-horror"
+            src="img/horror.png"
+            alt="Horror"
+          />
+        </div>
+        <div class="movie-container">
+          <button class="scroll-button left" onclick="scrollCategory('horror', -1)">❮</button>
+          <div class="homepage-movie-images" id="horror"></div>
+          <button class="scroll-button right" onclick="scrollCategory('horror', 1)">❯</button>
+        </div>
+      </section>
 
       <!-- CATEGORY 3 (NOSTALGIC) -->
-      <div class="categories">
-        <h2 class="category-headings">GUILTY OF BEING:</h2>
-        <img
-          class="category-image 3"
-          src="img/chickflick.png"
-          alt="Nostalgic"
-        />
-      </div>
-      <div class="homepage-movie-images" id="nostalgic"></div>
+      <section class="category-section">
+        <div class="categories">
+          <h2 class="category-headings">I loved this when I was little!</h2>
+          <img
+            class="category-image rotate-nostalgic"
+            src="img/chickflick.png"
+            alt="Nostalgic"
+          />
+        </div>
+        <div class="movie-container">
+          <button class="scroll-button left" onclick="scrollCategory('nostalgic', -1)">❮</button>
+          <div class="homepage-movie-images" id="nostalgic"></div>
+          <button class="scroll-button right" onclick="scrollCategory('nostalgic', 1)">❯</button>
+        </div>
+      </section>
 
-      <!-- CATEGORY 4 () -->
-      <div class="categories">
-        <h2 class="category-headings">GUILTY OF BEING:</h2>
-        <img class="category-image 4" src="img/chickflick.png" alt="Serious" />
-      </div>
-
-      <div class="homepage-movie-images" id="serious"></div>
-      <!-- 
-
-    
-
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 1"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 2"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 3"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 4"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 5"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 6"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 7"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 8"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 9"
-        />
-        <img
-          class="homepage-movie-image"
-          src="img/film-placeholder-image.webp"
-          alt="Film 10"
-        />
-    
-      
-        -->
+      <!-- CATEGORY 4 (SERIOUS) -->
+      <section class="category-section">
+        <div class="categories">
+          <h2 class="category-headings">The storyline gave us chills:</h2>
+          <img
+            class="category-image rotate-serious"
+            src="img/chickflick.png"
+            alt="Serious"
+          />
+        </div>
+        <div class="movie-container">
+          <button class="scroll-button left" onclick="scrollCategory('serious', -1)">❮</button>
+          <div class="homepage-movie-images" id="serious"></div>
+          <button class="scroll-button right" onclick="scrollCategory('serious', 1)">❯</button>
+        </div>
+      </section>
     </main>
     <script src="js/category.js"></script>
 
@@ -186,12 +142,9 @@
           <p class="footer-2nd-header">Quick Links</p>
           <nav>
             <ul class="Footer-links-text">
-              <a href=""></a>
-              <li>FAQ</li>
-              <a href=""></a>
-              <li>Privacy Policy</li>
-              <a href=""></a>
-              <li>Terms & Conditions</li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
             </ul>
           </nav>
         </div>
