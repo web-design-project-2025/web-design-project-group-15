@@ -1,0 +1,90 @@
+.page-heading {
+  font-family: 'Special Elite', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgb(221, 219, 241);
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+
+.articles-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(221, 219, 241, 0.2);
+}
+
+.featured-article {
+  background-color: rgba(53, 32, 159, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  border-bottom: none;
+}
+
+.article-title {
+  font-family: PT Serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(242, 166, 24);
+  margin-bottom: 0.5rem;
+}
+
+.article-date {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(221, 219, 241);
+  margin-bottom: 1rem;
+}
+
+.article-body {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(221, 219, 241);
+  line-height: 1.6;
+}
+
+.movie-entry {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgb(242, 166, 24);
+}
+
+.movie-title {
+  font-family: 'Special Elite', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgb(221, 219, 241);
+  margin-bottom: 0.5rem;
+}
+
+.movie-entry p {
+  margin-bottom: 0.8rem;
+}
+
+.movie-entry strong {
+  color: rgb(242, 166, 24);
+  font-weight: 700;
+}
+
+.respawn-logo {
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(242, 166, 24);
+  letter-spacing: 1px;
+}
