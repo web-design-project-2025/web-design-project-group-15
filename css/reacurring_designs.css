@@ -59,6 +59,14 @@ header {
 /* the navigation links */
 a {
   color: rgb(2, 1, 34);
+  text-decoration: none; 
+  transition: color 0.3s, transform 0.3s ease; 
+}
+
+/* Hover effect for navigation links */
+a:hover {
+  color: rgb(221, 219, 241); /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 /* ----- PAGE HEADINGS ----- */
