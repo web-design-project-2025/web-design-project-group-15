@@ -1,9 +1,10 @@
-//getting the info drom the json files
 fetch("js/movies.json")
   .then((response) => response.json())
   .then((data) => {
     const recentVerdicts = document.getElementById("recent-verdicts");
     const upcomingTrials = document.getElementById("upcoming-trials");
+
+    const loadImagesPromises = [];
 
     data.catalog.forEach((movie) => {
       const link = document.createElement("a");
@@ -14,7 +15,15 @@ fetch("js/movies.json")
       movieImage.alt = movie.movieName;
       movieImage.classList.add("homepage-movie-image");
       link.appendChild(movieImage);
-      //placing images on the html(kinda)
+
+      // Create a promise to wait for the image to load
+      const imageLoadPromise = new Promise((resolve) => {
+        movieImage.onload = resolve;
+        movieImage.onerror = resolve; // Resolve even if the image fails to load
+      });
+      loadImagesPromises.push(imageLoadPromise);
+
+      // Placing images on the HTML
       if (movie.category === "Serious Caroussel") {
         recentVerdicts.appendChild(link);
       }
@@ -22,40 +31,63 @@ fetch("js/movies.json")
         upcomingTrials.appendChild(link);
       }
     });
+
+    // Wait for all images to load before initializing carousels
+    Promise.all(loadImagesPromises).then(() => {
+      autoScrollCarousel('recent-verdicts');
+      autoScrollCarousel('upcoming-trials');
+    });
   })
-  //  checking for errors
   .catch((error) => {
-    console.error("Error", error);
+    console.error("Error:", error);
   });
 
 function autoScrollCarousel(containerId) {
   const container = document.getElementById(containerId);
-  if (!container) return;
+  if (!container || container.children.length === 0) return;
 
   const items = [...container.children];
+  if (items.length === 0) return;
+
+  // Clone items to create seamless loop
   items.forEach(item => {
     const clone = item.cloneNode(true);
     container.appendChild(clone);
   });
 
-  const scrollSpeed = 1;  // Adjust the speed of scrolling
-  let scrollPos = 0;
+  const scrollSpeed = 1; // Pixels per frame
+  let isPaused = false;
 
-  function scroll() {
+  function updateScroll() {
+    if (isPaused) return;
+
     container.scrollLeft += scrollSpeed;
-    scrollPos += scrollSpeed;
 
-    // If the first set of items is off-screen, reset to start without interruption
-    if (container.scrollLeft >= container.scrollWidth / 2) {
-      container.scrollLeft = 0;  // Reset the scroll position
+    // Recalculate total width dynamically
+    const itemWidth = items[0].offsetWidth + 10; // Include margin
+    const totalOriginalWidth = items.length * itemWidth;
+
+    // Debug to track scrolling
+    console.log(`Container: ${containerId}, scrollLeft: ${container.scrollLeft}, totalOriginalWidth: ${totalOriginalWidth}`);
+
+    // Reset using modulo for seamless looping
+    if (container.scrollLeft >= totalOriginalWidth) {
+      container.scrollLeft = container.scrollLeft % totalOriginalWidth;
     }
   }
 
-  // Call scroll every 10ms for smooth movement
-  setInterval(scroll, 10);
-}
+  // Smooth scrolling every 10ms
+  const scrollInterval = setInterval(updateScroll, 10);
 
-window.addEventListener('DOMContentLoaded', () => {
-  autoScrollCarousel('recent-verdicts');
-  autoScrollCarousel('upcoming-trials');
-});
+  // Pause on hover
+  container.addEventListener('mouseenter', () => {
+    isPaused = true;
+  });
+  container.addEventListener('mouseleave', () => {
+    isPaused = false;
+  });
+
+  // Ensure initial scroll position and behavior
+  container.scrollLeft = 0;
+  container.style.scrollBehavior = 'auto';
+}

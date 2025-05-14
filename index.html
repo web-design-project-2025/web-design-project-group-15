@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/reacurring_designs.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,12 +19,11 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Home - Cinema Courtroom</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <!-- logotype -->
       <a href="index.html">
         <img
           id="header-logoIcon"
@@ -34,16 +31,10 @@
           alt="website logotype"
         />
       </a>
-      <!---->
-
       <div class="header-text">
-        <!-- title -->
         <a href="index.html" id="header-title-link">
           <h1 id="header-title">CINEMA COURTROOM</h1>
         </a>
-        <!---->
-
-        <!-- navigation bar -->
         <nav>
           <ul class="header-ul">
             <li><a id="menu-items" href="categories.html">CATEGORIES</a></li>
@@ -52,21 +43,22 @@
             <li><a id="menu-items" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
-        <!---->
       </div>
     </header>
-
+    <!-- MAIN -->
     <main>
       <h1 class="homepage-heading">AT CINEMA COURTROOM FILMS FACE JUSTICE</h1>
       <h2 class="homepage-heading">
         EXPLORE REVIEWS FRAMED AS TRIALS, WITH VERDICTS YOU CAN CHALLENGE.
       </h2>
-
       <h3 class="homepage-category-headings">RECENT VERDICTS</h3>
-      <div class="homepage-movie-images" id="recent-verdicts"></div>
-
+      <div class="carousel-container">
+        <div class="homepage-movie-images" id="recent-verdicts"></div>
+      </div>
       <h3 class="homepage-category-headings">UPCOMING TRIALS</h3>
-      <div class="homepage-movie-images" id="upcoming-trials"></div>
+      <div class="carousel-container">
+        <div class="homepage-movie-images" id="upcoming-trials"></div>
+      </div>
     </main>
     <script src="js/javascript.js"></script>
     <!-- FOOTER -->
@@ -92,12 +84,9 @@
           <p class="footer-2nd-header">Quick Links</p>
           <nav>
             <ul class="Footer-links-text">
-              <a href=""></a>
-              <li>FAQ</li>
-              <a href=""></a>
-              <li>Privacy Policy</li>
-              <a href=""></a>
-              <li>Terms & Conditions</li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
             </ul>
           </nav>
         </div>
