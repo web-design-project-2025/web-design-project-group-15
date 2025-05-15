@@ -11,3 +11,16 @@
 .specific-category-movie-image {
   padding: 10px;
 }
+
+/* RESPONSIVE LAYOUT */
+
+@media (max-width: 768px) {
+  .specific-category-movie-images {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on tablet */
+  }
+}
+@media (max-width: 480px) {
+  .specific-category-movie-images {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+  }
+}

@@ -88,3 +88,14 @@
   color: rgb(242, 166, 24);
   letter-spacing: 1px;
 }
+
+/* RESPONSIVE LAYOUT */
+
+@media (max-width: 768px) {
+  .articles-container {
+    padding: 0 10px;
+  }
+  .article-title {
+    font-size: 1.2rem;
+  }
+}

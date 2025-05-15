@@ -198,3 +198,18 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
 .appeal-buttons button:hover {
   background-color: rgb(39, 37, 113);
 }
+/* RESPONSIVE LAYOUT */
+
+@media (max-width: 768px) {
+  .specific-film-container-1 {
+    grid-template-columns: 1fr; /* Stack columns on tablet */
+    text-align: center;
+  }
+  .specific-film-poster-image {
+    margin: 0 auto; /* Center the poster */
+  }
+  .opening-arguments,
+  .opening-arguments-text {
+    margin-left: 0; /* Remove margin for centered layout */
+  }
+}
