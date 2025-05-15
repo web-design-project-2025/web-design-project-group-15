@@ -14,45 +14,44 @@ appealButton.addEventListener("click", function (event) {
   appealDropDown.classList.toggle("dropdown-appeal-this-show");
 });
 
-// fetch("json/movies.json")
-//   .then((response) => response.json())
-//   .then((data) => {
-//     const param = window.location.search;
-//     const urlParams = new URLSearchParams(param);
-//     const filmID = urlParams.get("id");
+function getMovieById(movieArray, id) {
+  return movieArray.find((movie) => movie.movieID === id);
+}
 
-//     const movie = data.catalog.find(
-//       (movie) => movie.movieID === parseInt(filmID)
-//     );
-
-//   })
-//   .catch((error) => {
-//     console.error("Error fetching movie data:", error);
-//   });
-
+function getDescriptionById(descArray, id) {
+  return descArray.find((desc) => desc.movieID === id);
+}
 async function loadMovieData() {
-  const catalogResponse = await fetch("json/movies.JSON");
+  const catalogResponse = await fetch("json/movies.json");
   const movieCatalog = await catalogResponse.json();
   movies = movieCatalog.catalog;
 
   const infoResponse = await fetch("json/movieInfo.json");
   const movieDescription = await infoResponse.json();
-  data = movieDescription.descriptions;
+  descriptions = movieDescription.descriptions;
+
+  const param = window.location.search;
+  const urlParams = new URLSearchParams(param);
+  const filmID = parseInt(urlParams.get("id"));
+
+  const movie = getMovieById(movies, filmID);
+  const description = getDescriptionById(descriptions, filmID);
+
+  if (movie) {
+    document.querySelector(".page-heading").innerText = movie.movieName;
+    document.querySelector(".specific-film-poster-image").src = movie.poster;
+  } else {
+    console.error("Movie not found!");
+  }
+
+  if (description) {
+    document.querySelector(".specific-film-movie-image").src =
+      description.picture;
+    document.querySelector(".opening-arguments-text").innerText =
+      description.synopsis;
+  } else {
+    console.error("data not found!");
+  }
 }
 
-const movie = getMovieById(movies, filmID);
-const description = getDescriptionById(descriptions, filmID);
-if (movie) {
-  document.querySelector(".specific-film-movie-image").src = movie.picture;
-  document.querySelector(".page-heading").innerText = movie.movieName;
-  document.querySelector(".specific-film-poster-image").src = movie.poster;
-  document.querySelector(".opening-arguments-text").innerText = movie.synopsis;
-} else {
-  console.error("Movie not found!");
-}
-if (data) {
-  document.querySelector(".specific-film-movie-image").src = data.picture;
-  document.querySelector(".opening-arguments-text").innerText = movie.synopsis;
-} else {
-  console.error("data not found!");
-}
+loadMovieData();
