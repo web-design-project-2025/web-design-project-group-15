@@ -39,7 +39,6 @@ async function loadMovieData() {
 
   if (movie) {
     document.querySelector(".page-heading").innerText = movie.movieName;
-    document.querySelector(".specific-film-poster-image").src = movie.poster;
   } else {
     console.error("Movie not found!");
   }
@@ -47,6 +46,8 @@ async function loadMovieData() {
   if (description) {
     document.querySelector(".specific-film-movie-image").src =
       description.picture;
+    document.querySelector(".specific-film-poster-image").src =
+      description.evidencePicture;
     document.querySelector(".opening-arguments-text").innerText =
       description.synopsis;
   } else {
