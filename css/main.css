@@ -4,6 +4,13 @@ body {
   background-color: rgb(2, 1, 34);
 }
 
+main {
+  background-image: url("/img/courtroom.png");
+  background-size: contain;
+  background-position: center top;
+  padding-top: 2%;
+}
+
 /* BOTH THE HEADINGS */
 .homepage-heading {
   color: rgb(221, 219, 241);
@@ -22,6 +29,7 @@ h1.homepage-heading {
 /* second heading */
 h2.homepage-heading {
   font-size: 1.5rem;
+  margin-bottom: 30%;
 }
 
 /* CATEGORY HEADINGS */
