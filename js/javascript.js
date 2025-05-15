@@ -1,4 +1,5 @@
-fetch("js/movies.json")
+//getting the info drom the json files
+fetch("json/movies.json")
   .then((response) => response.json())
   .then((data) => {
     const recentVerdicts = document.getElementById("recent-verdicts");
@@ -34,8 +35,8 @@ fetch("js/movies.json")
 
     // Wait for all images to load before initializing carousels
     Promise.all(loadImagesPromises).then(() => {
-      autoScrollCarousel('recent-verdicts');
-      autoScrollCarousel('upcoming-trials');
+      autoScrollCarousel("recent-verdicts");
+      autoScrollCarousel("upcoming-trials");
     });
   })
   .catch((error) => {
@@ -50,7 +51,7 @@ function autoScrollCarousel(containerId) {
   if (items.length === 0) return;
 
   // Clone items to create seamless loop
-  items.forEach(item => {
+  items.forEach((item) => {
     const clone = item.cloneNode(true);
     container.appendChild(clone);
   });
@@ -68,7 +69,9 @@ function autoScrollCarousel(containerId) {
     const totalOriginalWidth = items.length * itemWidth;
 
     // Debug to track scrolling
-    console.log(`Container: ${containerId}, scrollLeft: ${container.scrollLeft}, totalOriginalWidth: ${totalOriginalWidth}`);
+    console.log(
+      `Container: ${containerId}, scrollLeft: ${container.scrollLeft}, totalOriginalWidth: ${totalOriginalWidth}`
+    );
 
     // Reset using modulo for seamless looping
     if (container.scrollLeft >= totalOriginalWidth) {
@@ -80,14 +83,14 @@ function autoScrollCarousel(containerId) {
   const scrollInterval = setInterval(updateScroll, 10);
 
   // Pause on hover
-  container.addEventListener('mouseenter', () => {
+  container.addEventListener("mouseenter", () => {
     isPaused = true;
   });
-  container.addEventListener('mouseleave', () => {
+  container.addEventListener("mouseleave", () => {
     isPaused = false;
   });
 
   // Ensure initial scroll position and behavior
   container.scrollLeft = 0;
-  container.style.scrollBehavior = 'auto';
+  container.style.scrollBehavior = "auto";
 }
