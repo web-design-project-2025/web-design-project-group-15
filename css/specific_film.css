@@ -173,7 +173,7 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
 
 .appeal-buttons {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 10px;
 }
 
