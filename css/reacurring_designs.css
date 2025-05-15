@@ -187,8 +187,8 @@ footer {
   }
 
   .header-ul {
-    margin-top: 20px;
-    gap: 4rem;
+    flex-direction: column;
+    gap: 1rem;
     font-size: 1.2rem;
   }
 
@@ -204,7 +204,7 @@ footer {
   }
 
   #logo-footer {
-    display: none;
+    width: 10px;
   }
 
   /* Movie images (used in carousels across pages) */
@@ -246,17 +246,11 @@ footer {
 
   /* Footer adjustments */
   .footer-layout {
-    grid-template-columns: 2fr;
-  }
-  .footer-2nd-header {
-    font-size: 1rem;
-  }
-  li {
-    font-size: 0.7rem;
+    grid-template-columns: 1fr;
   }
 
   #logo-footer {
-    display: none;
+    width: 80px;
   }
 
   /* Movie images */
