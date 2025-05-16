@@ -40,7 +40,7 @@ h2.homepage-heading {
 
 /* CAROUSEL STYLES */
 .carousel-container {
-  max-width: 1330px; 
+  max-width: 1330px;
   margin: 0 auto;
   padding: 0;
 }
@@ -48,10 +48,10 @@ h2.homepage-heading {
 .homepage-movie-images {
   display: flex;
   white-space: nowrap;
-  width: 90%; 
+  width: 90%;
   padding: 10px 0;
-  overflow-x: auto; 
-  overflow-y: hidden; 
+  overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
 
@@ -61,9 +61,44 @@ h2.homepage-heading {
 
 .homepage-movie-image {
   flex: 0 0 auto;
-  width: 200px; 
+  width: 200px;
   height: 300px;
   object-fit: cover;
-  margin-right: 5px; 
+  margin-right: 5px;
   transition: transform 0.5s ease;
+}
+
+/* RESPONSIVE LAYOUT */
+@media (max-width: 768px) {
+  /* first heading */
+  h1.homepage-heading {
+    font-size: 1.5rem;
+  }
+
+  /* second heading */
+  h2.homepage-heading {
+    font-size: 0.7rem;
+  }
+
+  /* category headings */
+  .homepage-category-headings {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* first heading */
+  h1.homepage-heading {
+    font-size: 1.5rem;
+  }
+
+  /* second heading */
+  h2.homepage-heading {
+    font-size: 0.7rem;
+  }
+
+  /* category headings */
+  .homepage-category-headings {
+    font-size: 1rem;
+  }
 }
