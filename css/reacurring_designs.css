@@ -1,7 +1,7 @@
 /* ----- BACKGROUND ----- */
 body {
   background-color: rgb(2, 1, 34);
-  margin: 0; /* Ensure no default margins interfere with layout */
+  margin: 0; 
 }
 
 /* ----- HEADER ----- */
@@ -10,7 +10,7 @@ header {
   background-color: rgb(242, 166, 24);
   display: flex;
   align-items: center;
-  padding: 10px 20px; /* Add padding for better spacing */
+  padding: 10px 20px;
 }
 
 /* THE LOGOTYPE */
@@ -51,8 +51,8 @@ header {
   display: flex;
   list-style: none;
   gap: 2rem;
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  padding: 0; 
+  margin: 0; 
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -68,8 +68,8 @@ a {
 
 /* Hover effect for navigation links */
 a:hover {
-  color: rgb(221, 219, 241); /* Change color on hover */
-  transform: scale(1.1); /* Slightly enlarge on hover */
+  color: rgb(221, 219, 241); 
+  transform: scale(1.1); 
 }
 
 /* ----- PAGE HEADINGS ----- */
@@ -80,20 +80,24 @@ a:hover {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin: 20px 0; /* Add consistent margin */
+  margin: 20px 0; 
 }
 
 /* ----- FOOTER ----- */
 footer {
   background-color: rgb(242, 166, 24);
   margin-top: 3%;
-  padding: 20px; /* Add padding for better spacing */
+  padding: 20px; 
 }
 
 .footer-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px; /* Add gap between columns */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 15px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  justify-items: center; 
+  align-items: start; 
 }
 
 #footer-site-name {
@@ -101,48 +105,54 @@ footer {
   font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
+  color: rgb(2, 1, 34); 
 }
 
 .Footer-running-text {
   list-style: none;
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   padding-left: 0;
   padding-right: 5px;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
+  font-size: 1rem; 
+  color: rgb(2, 1, 34); 
 }
 
 .Footer-links-text {
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 1rem; 
+  color: rgb(2, 1, 34); 
 }
 
 .footer-2nd-header {
   font-family: "Special Elite", serif;
   font-size: 1.3rem;
   margin-bottom: 10px;
+  margin-top: 0; 
+  color: rgb(2, 1, 34); 
 }
 
 .footer-1st-column {
   text-align: center;
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   padding-right: 10px;
   margin: 0;
+  font-size: 0.9rem; 
+  color: rgb(2, 1, 34); 
 }
 
 .footer-logo {
   display: flex;
-  align-content: right;
   justify-content: center;
   max-width: 100%;
   height: auto;
-  place-items: center;
 }
 
 #logo-footer {
   width: 130px;
-  align-items: right;
 }
 
 /* Poster Sizes */
@@ -198,16 +208,37 @@ footer {
   }
 
   /* Footer adjustments */
+  footer {
+    padding: 15px; 
+  }
+
   .footer-layout {
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+    gap: 10px; 
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+  }
+
+  .footer-2nd-header {
+    font-size: 1.1rem;
+    margin-bottom: 5px; 
+  }
+
+  .Footer-running-text {
+    font-size: 0.9rem;
+  }
+
+  .Footer-links-text {
+    font-size: 0.9rem;
+  }
+
+  .footer-1st-column {
+    font-size: 0.8rem;
   }
 
   #logo-footer {
-    width: 10px;
+    width: 100px;
   }
 
-  /* Movie images (used in carousels across pages) */
+  /* Movie images */
   .homepage-movie-images {
     gap: 2%;
     margin-left: 2%;
@@ -245,12 +276,42 @@ footer {
   }
 
   /* Footer adjustments */
+  footer {
+    padding: 12px; 
+  }
+
   .footer-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 8px; 
+    align-items: center; 
+  }
+
+  .footer-2nd-header {
+    font-size: 0.9rem; 
+    margin-bottom: 4px; 
+  }
+
+  .Footer-running-text {
+    font-size: 0.7rem; 
+    line-height: 1.3; 
+  }
+
+  .Footer-links-text {
+    font-size: 0.7rem; 
+    line-height: 1.3; 
+  }
+
+  .footer-1st-column {
+    font-size: 0.7rem; 
+  }
+
+  .footer-logo {
+    margin-top: 0; 
+    grid-column: span 2; 
   }
 
   #logo-footer {
-    width: 80px;
+    width: 80px; 
   }
 
   /* Movie images */
