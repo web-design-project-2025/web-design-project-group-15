@@ -2,7 +2,7 @@
   "descriptions": [
     {
       "movieID": 1,
-      "poster": "img/Posters/TheShakeshaw.jpg",
+      "poster": "img/posters/theShawshank.jpg",
       "synopsis": "Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years.",
       "picture": "img/movie-pictures/shawshank-picture.jpg",
       "evidencePicture": "img/movie-pictures/shawshank-evidence.jpg",
@@ -12,7 +12,7 @@
     },
     {
       "movieID": 2,
-      "poster": "img/Posters/ForestGump.jpg",
+      "poster": "img/posters/forestGump.jpg",
       "synopsis": "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).",
       "picture": "img/movie-pictures/forrest-picture.jpg.webp",
       "evidencePicture": "img/movie-pictures/forrest-evidence.jpg",
@@ -22,7 +22,7 @@
     },
     {
       "movieID": 3,
-      "poster": "img/Posters/TheGodfather.jpg",
+      "poster": "img/posters/theGodfather.jpg",
       "synopsis": "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.",
       "picture": "img/movie-pictures/godfather-picture.jpg",
       "evidencePicture": "img/movie-pictures/godfather-evidence.jpg",
@@ -32,7 +32,7 @@
     },
     {
       "movieID": 4,
-      "poster": "img/Posters/PulpFiction.jpg",
+      "poster": "img/posters/pulpFiction.jpg",
       "synopsis": "Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson) are hitmen with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is interwoven with those of their boss, gangster Marsellus Wallace (Ving Rhames) ; his actress wife, Mia (Uma Thurman) ; struggling boxer Butch Coolidge (Bruce Willis) ; master fixer Winston Wolfe (Harvey Keitel) and a nervous pair of armed robbers, Pumpkin (Tim Roth) and Honey Bunny (Amanda Plummer).",
       "picture": "img/movie-pictures/pulpfiction-picture.webp",
       "evidencePicture": "img/movie-pictures/pulpfiction-evidence.webp",
@@ -42,7 +42,7 @@
     },
     {
       "movieID": 5,
-      "poster": "img/Posters/Inception.JPG",
+      "poster": "img/posters/inception.JPG",
       "synopsis": "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.",
       "picture": "img/movie-pictures/inception-picture.jpg",
 
@@ -53,7 +53,7 @@
     },
     {
       "movieID": 6,
-      "poster": "img/Posters/FightClub.jpg",
+      "poster": "img/posters/fightClub.jpg",
       "synopsis": "A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.",
       "picture": "img/movie-pictures/fightclub-picture.avif",
       "evidencePicture": "img/movie-pictures/fightclub-evidence.jpg.webp",
@@ -63,7 +63,7 @@
     },
     {
       "movieID": 7,
-      "poster": "img/Posters/Interstellar.jpg",
+      "poster": "img/posters/interstellar.jpg",
       "synopsis": "n Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
       "picture": "img/movie-pictures/interstellar-picture.webp",
       "evidencePicture": "img/movie-pictures/interstellar-evidence.webp",
@@ -73,7 +73,7 @@
     },
     {
       "movieID": 8,
-      "poster": "img/Posters/TheMatrixResurrections.jpg",
+      "poster": "img/posters/theMatrixResurrections.jpg",
       "synopsis": "To find out if his reality is a physical or mental construct, Mr. Anderson, aka Neo, will have to choose to follow the white rabbit once more. If he's learned anything, it's that choice, while an illusion, is still the only way out of -- or into -- the Matrix. Neo already knows what he has to do, but what he doesn't yet know is that the Matrix is stronger, more secure and far more dangerous than ever before.",
       "picture": "img/movie-pictures/matrix-picture.jpg",
       "evidencePicture": "img/movie-pictures/matrix-evidence.avif",
@@ -83,7 +83,7 @@
     },
     {
       "movieID": 9,
-      "poster": "img/Posters/MeanGirls.jpg",
+      "poster": "img/posters/meanGirls.jpg",
       "synopsis": "Teenage Cady Heron (Lindsay Lohan) was educated in Africa by her scientist parents. When her family moves to the suburbs of Illinois, Cady finally gets to experience public school and gets a quick primer on the cruel, tacit laws of popularity that divide her fellow students into tightly knit cliques. She unwittingly finds herself in the good graces of an elite group of cool students dubbed 'the Plastics,' but Cady soon realizes how her shallow group of new friends earned this nickname.",
       "picture": "img/movie-pictures/meangirls-picture.jpg",
       "evidencePicture": "img/movie-pictures/meangirls-evidence.jpg",
@@ -93,7 +93,7 @@
     },
     {
       "movieID": 10,
-      "poster": "img/Posters/10ThingsIHateAboutYou.jpg",
+      "poster": "img/posters/10ThingsIHateAboutYou.jpg",
       "synopsis": "Kat Stratford is beautiful, smart and quite abrasive to most of her fellow teens, meaning that she doesn't attract many boys. Unfortunately for her younger sister, Bianca, house rules say that she can't date until Kat has a boyfriend, so strings are pulled to set the dour damsel up for a romance. Soon Kat crosses paths with handsome new arrival Patrick Verona. Kat may let her guard down enough to fall for the effortlessly charming Patrick.",
       "picture": "img/movie-pictures/10things-picture.jpg",
       "evidencePicture": "img/movie-pictures/10things-evidence.webp",
@@ -103,7 +103,7 @@
     },
     {
       "movieID": 11,
-      "poster": "img/Posters/AnyoneButYou.jpg",
+      "poster": "img/posters/anyoneButYou.jpg",
       "synopsis": "Despite having an amazing first date, Bea and Ben's initial attraction quickly turns sour. When they unexpectedly find themselves at a destination wedding in Australia, the pair pretend to be the perfect couple to keep up appearances.",
       "picture": "img/movie-pictures/anyonebutyou-picture.jpg",
       "evidencePicture": "img/movie-pictures/anyonebutyou-evidence.jpg",
@@ -113,7 +113,7 @@
     },
     {
       "movieID": 12,
-      "poster": "img/Posters/HowToLoseAGuyIn10Days.jpg",
+      "poster": "img/posters/howToLoseAGuyIn10Days.jpg",
       "synopsis": "An advice columnist, Andie Anderson (Kate Hudson), tries pushing the boundaries of what she can write about in her new piece about how to get a man to leave you in 10 days. Her editor, Lana (Bebe Neuwirth), loves it, and Andie goes off to find a man she can use for the experiment. Enter executive Ben Berry (Matthew McConaughey), who is so confident in his romantic prowess that he thinks he can make any woman fall in love with him in 10 days. When Andie and Ben meet, their plans backfire.",
       "picture": "img/movie-pictures/howtolose-picture.png",
       "evidencePicture": "img/movie-pictures/howtolose-evidence.jpg",
@@ -123,7 +123,7 @@
     },
     {
       "movieID": 13,
-      "poster": "img/Posters/Clueless.jpg",
+      "poster": "img/posters/clueless.jpg",
       "synopsis": "Shallow, rich and socially successful Cher (Alicia Silverstone) is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai (Brittany Murphy) a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother (Paul Rudd) was right about how misguided she was -- and falls for him.",
       "picture": "img/movie-pictures/clueless-picture.jpg",
       "evidencePicture": "img/movie-pictures/clueless-evidence.webp",
@@ -133,7 +133,7 @@
     },
     {
       "movieID": 14,
-      "poster": "img/Posters/EasyA.jpg",
+      "poster": "img/posters/easyA.jpg",
       "synopsis": "Prompted by her popular best friend to spill details of her boring weekend, Olive, a clean-cut teen, decides to spice things up by telling a little lie about losing her virginity; when the high-school busybody overhears the conversation and spreads it all over campus, Olive is suddenly notorious but for the wrong reasons.",
       "picture": "img/movie-pictures/easya-picture.webp",
       "evidencePicture": "img/movie-pictures/easya-evidence.jpeg",
@@ -143,7 +143,7 @@
     },
     {
       "movieID": 15,
-      "poster": "img/Posters/500DaysOfSummer.jpg",
+      "poster": "img/posters/500DaysOfSummer.jpg",
       "synopsis": "Tom (Joseph Gordon-Levitt), greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer (Zooey Deschanel), suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life.",
       "picture": "img/movie-pictures/500days-picture.jpg",
       "evidencePicture": "img/movie-pictures/500days-evidence.jpg",
@@ -153,7 +153,7 @@
     },
     {
       "movieID": 16,
-      "poster": "img/Posters/TheDuff.jpg",
+      "poster": "img/posters/theDuff.jpg",
       "synopsis": "Frumpy high-school senior Bianca (Mae Whitman) has a rude awakening when she learns that her classmates secretly know her as the DUFF -- designated ugly fat friend -- to her prettier and more popular pals. Desperate to reinvent herself, Bianca enlists the aid of Wesley (Robbie Amell), a charming jock. In order to save her senior year from becoming a complete disaster, Bianca must find the confidence to overthrow a judgmental student (Bella Thorne) and revolutionize the school's social order.",
       "picture": "img/movie-pictures/duff-picture.jpg",
       "evidencePicture": "img/movie-pictures/duff-evidence.webp",
@@ -163,7 +163,7 @@
     },
     {
       "movieID": 17,
-      "poster": "img/Posters/TheEmojiMovie.jpg",
+      "poster": "img/posters/theEmojiMovie.jpg",
       "synopsis": "Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become 'normal' like the other emojis, Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, the three emojis discover a great danger that could threaten their phone's very existence.",
       "picture": "img/movie-pictures/emoji-picture.webp",
       "evidencePicture": "img/movie-pictures/emoji-evidence.jpg",
@@ -173,7 +173,7 @@
     },
     {
       "movieID": 18,
-      "poster": "img/Posters/WallE.jpg",
+      "poster": "img/posters/wallE.jpg",
       "synopsis": "WALL-E, short for Waste Allocation Load Lifter Earth-class, is the last robot left on Earth. He spends his days tidying up the planet, one piece of garbage at a time. But during 700 years, WALL-E has developed a personality, and he's more than a little lonely. Then he spots EVE, a sleek and shapely probe sent back to Earth on a scanning mission. Smitten WALL-E embarks on an adventure when he follows EVE across the galaxy.",
       "picture": "img/movie-pictures/walle-picture.jpg",
       "evidencePicture": "img/movie-pictures/walle-evidence.jpeg",
@@ -183,7 +183,7 @@
     },
     {
       "movieID": 19,
-      "poster": "img/Posters/TheLionKing.jpg",
+      "poster": "img/posters/theLionKing.jpg",
       "synopsis": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
       "picture": "img/movie-pictures/lionking-picture.jpeg",
       "evidencePicture": "img/movie-pictures/lionking-evidence.webp",
@@ -193,7 +193,7 @@
     },
     {
       "movieID": 20,
-      "poster": "img/Posters/ChickenLittle.jpg",
+      "poster": "img/posters/chickenLittle.jpg",
       "synopsis": "Young Chicken Little (Mark Dindal) throws his small town into panic by claiming the sky is falling. Unable to find the piece of 'sky' that hit him, he earns the town's scorn. A year later, outcast Little tries to redeem himself by joining the baseball team, helping to win a crucial game. Later that night he is hit on the head again and discovers that the 'falling sky' is actually from a UFO. Now, Little must convince the skeptical town that an alien invasion is about to happen.",
       "picture": "img/movie-pictures/chicken-picture.jpg",
       "evidencePicture": "img/movie-pictures/chicken-evidence.jpeg",
@@ -203,7 +203,7 @@
     },
     {
       "movieID": 21,
-      "poster": "img/Posters/HowToTrainYourDragon.jpg",
+      "poster": "img/posters/howToTrainYourDragon.jpg",
       "synopsis": "Hiccup (Chris Sanders) is a Norse teenager from the island of Berk, where fighting dragons is a way of life. His progressive views and weird sense of humor make him a misfit, despite the fact that his father (Dean DeBlois) is chief of the clan. Tossed into dragon-fighting school, he endeavors to prove himself as a true Viking, but when he befriends an injured dragon he names Toothless, he has the chance to plot a new course for his people's future.",
       "picture": "img/movie-pictures/traindragon-picture.avif",
       "evidencePicture": "img/movie-pictures/traindragon-evidence.jxl",
@@ -213,7 +213,7 @@
     },
     {
       "movieID": 22,
-      "poster": "img/Posters/Minions.jpg",
+      "poster": "img/posters/minions.jpg",
       "synopsis": "Evolving from single-celled yellow organisms at the dawn of time, Minions live to serve, but find themselves working for a continual series of unsuccessful masters, from T. Rex to Napoleon. Without a master to grovel for, the Minions fall into a deep depression. But one minion, Kevin, has a plan; accompanied by his pals Stuart and Bob, Kevin sets forth to find a new evil boss for his brethren to follow. Their search leads them to Scarlet Overkill, the world's first-ever super-villainess.",
       "picture": "img/movie-pictures/minions-picture.webp",
       "evidencePicture": "img/movie-pictures/minions-evidence.jpg",
@@ -223,7 +223,7 @@
     },
     {
       "movieID": 23,
-      "poster": "img/Posters/TheLegoMovie.jpg",
+      "poster": "img/posters/theLegoMovie.jpg",
       "synopsis": "Emmet (Chris Pratt), an ordinary LEGO figurine who always follows the rules, is mistakenly identified as the Special -- an extraordinary being and the key to saving the world. He finds himself drafted into a fellowship of strangers who are on a mission to stop an evil tyrant's (Will Ferrell) plans to conquer the world. Unfortunately for Emmet, he is hopelessly -- and hilariously -- unprepared for such a task, but he'll give it his all nonetheless.",
       "picture": "img/movie-pictures/lego-picture.jpeg",
       "evidencePicture": "img/movie-pictures/lego-evidence.jpg",
@@ -233,7 +233,7 @@
     },
     {
       "movieID": 24,
-      "poster": "img/Posters/Frozen2.jpg",
+      "poster": "img/posters/frozen2.jpg",
       "synopsis": "Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.",
       "picture": "img/movie-pictures/frozen-picture.jpg",
       "evidencePicture": "img/movie-pictures/frozen-evidence.webp",
