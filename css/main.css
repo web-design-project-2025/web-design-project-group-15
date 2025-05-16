@@ -80,11 +80,6 @@ h2.homepage-heading {
   h2.homepage-heading {
     font-size: 1rem;
   }
-
-  .homepage-movie-image {
-    width: 200px;
-    height: 300px;
-  }
 }
 @media (max-width: 768px) {
   /* first heading */
