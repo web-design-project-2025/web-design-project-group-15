@@ -4,145 +4,145 @@
       "movieID": 1,
       "movieName": "The Shawshank Redemption",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/TheShakeshaw.jpg"
+      "poster": "../img/posters/TheShakeshaw.jpg"
     },
     {
       "movieID": 2,
       "movieName": "Forest Gump",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/ForestGump.jpg"
+      "poster": "../img/posters/ForestGump.jpg"
     },
     {
       "movieID": 3,
       "movieName": "The Godfather",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/TheGodfather.jpg"
+      "poster": "../img/posters/TheGodfather.jpg"
     },
     {
       "movieID": 4,
       "movieName": "Pulp Fiction",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/PulpFiction.jpg"
+      "poster": "../img/posters/PulpFiction.jpg"
     },
     {
       "movieID": 5,
       "movieName": "Inception",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/Inception.JPG"
+      "poster": "../img/posters/Inception.JPG"
     },
     {
       "movieID": 6,
       "movieName": "Fight Club",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/FightClub.jpg"
+      "poster": "../img/posters/FightClub.jpg"
     },
     {
       "movieID": 7,
       "movieName": "Interstellar",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/Interstellar.jpg"
+      "poster": "../img/posters/Interstellar.jpg"
     },
     {
       "movieID": 8,
       "movieName": "The Matrix Resurrections",
       "category": "Serious Caroussel",
-      "poster": "./img/posters/TheMatrixResurrections.jpg"
+      "poster": "../img/posters/TheMatrixResurrections.jpg"
     },
     {
       "movieID": 9,
       "movieName": "Mean Girls",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/MeanGirls.jpg"
+      "poster": "../img/posters/MeanGirls.jpg"
     },
     {
       "movieID": 10,
       "movieName": "10 Things I Hate About You",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/10ThingsIHateAboutYou.jpg"
+      "poster": "../img/posters/10ThingsIHateAboutYou.jpg"
     },
     {
       "movieID": 11,
       "movieName": "Anyone But You",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/AnyoneButYou.jpg"
+      "poster": "../img/posters/AnyoneButYou.jpg"
     },
     {
       "movieID": 12,
       "movieName": "How To Lose A Guy In 10 Days",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/HowToLoseAGuyIn10Days.jpg"
+      "poster": "../img/posters/HowToLoseAGuyIn10Days.jpg"
     },
     {
       "movieID": 13,
       "movieName": "Cluelsess",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/Clueless.jpg"
+      "poster": "../img/posters/Clueless.jpg"
     },
     {
       "movieID": 14,
       "movieName": "Easy A",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/EasyA.jpg"
+      "poster": "../img/posters/EasyA.jpg"
     },
     {
       "movieID": 15,
       "movieName": "500 Days Of Summer",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/500DaysOfSummer.jpg"
+      "poster": "../img/posters/500DaysOfSummer.jpg"
     },
     {
       "movieID": 16,
       "movieName": "The Duff",
       "category": "Girly Caroussel",
-      "poster": "./img/posters/TheDuff.jpg"
+      "poster": "../img/posters/TheDuff.jpg"
     },
     {
       "movieID": 17,
       "movieName": "The Emoji Movie",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/TheEmojiMovie.jpg"
+      "poster": "../img/posters/TheEmojiMovie.jpg"
     },
     {
       "movieID": 18,
       "movieName": "Wall-E",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/WallE.jpg"
+      "poster": "../img/posters/WallE.jpg"
     },
     {
       "movieID": 19,
       "movieName": "The Lion King",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/TheLionKing.jpg"
+      "poster": "../img/posters/TheLionKing.jpg"
     },
     {
       "movieID": 20,
       "movieName": "Chicken Little",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/ChickenLittle.jpg"
+      "poster": "../img/posters/ChickenLittle.jpg"
     },
     {
       "movieID": 21,
       "movieName": "How To Train Your Dragon",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/HowToTrainYourDragon.jpg"
+      "poster": "../img/posters/HowToTrainYourDragon.jpg"
     },
     {
       "movieID": 22,
       "movieName": "Minions",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/Minions.jpg"
+      "poster": "../img/posters/Minions.jpg"
     },
     {
       "movieID": 23,
       "movieName": "The Lego Movie",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/TheLegoMovie.jpg"
+      "poster": "../img/posters/TheLegoMovie.jpg"
     },
     {
       "movieID": 24,
       "movieName": "Frozen II",
       "category": "Nostalgic Caroussel",
-      "poster": "./img/posters/Frozen2.jpg"
+      "poster": "../img/posters/Frozen2.jpg"
     }
   ]
 }
