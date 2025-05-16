@@ -7,7 +7,7 @@
   padding: 2rem 0;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgba(53, 32, 159, 0.1); 
+  background-color: rgba(53, 32, 159, 0.1);
 }
 
 /* individual images */
@@ -16,20 +16,20 @@
   justify-content: center;
   gap: 100px;
   margin-top: 2rem;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .founder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px; 
+  width: 250px;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .founder:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .about-founders-image {
@@ -57,9 +57,9 @@
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
-  margin: 2rem auto; 
-  max-width: 800px; 
-  padding: 0 1rem; 
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
 }
 
 /* RESPONSIVE LAYOUT */
@@ -90,7 +90,7 @@
 
   .about-text {
     font-size: 1rem;
-    max-width: 90%; 
+    max-width: 90%;
     margin: 1rem auto;
   }
 }
