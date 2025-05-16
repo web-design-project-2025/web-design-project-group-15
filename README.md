@@ -1,5 +1,7 @@
-Cinema Courtrooml
+Cinema Courtroom
+
 Welcome to Cinema Courtroom, a web platform where films face justice! This project is a movie review website designed by three New Media Design students at Jönköping University. Users can explore movies by categories, read reviews framed as trials, access news articles, and manage their accounts through login and signup functionalities. Built with HTML, CSS, and JavaScript, Cinema Courtroom emphasizes usability, accessibility, and a thematic courtroom-inspired design.
+
 Table of Contents
 
 1. Features
