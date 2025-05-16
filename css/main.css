@@ -50,6 +50,7 @@ h2.homepage-heading {
 .homepage-movie-images {
   display: flex;
   white-space: nowrap;
+  width: 90%;
   padding: 10px 0;
   overflow-x: auto;
   overflow-y: hidden;
@@ -70,6 +71,37 @@ h2.homepage-heading {
 }
 
 /* RESPONSIVE LAYOUT */
+/* Tablet (max-width: 1100px) */
+@media (max-width: 1100px) {
+  /* first heading */
+  h1.homepage-heading {
+    font-size: 2rem;
+  }
+
+  /* second heading */
+  h2.homepage-heading {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  /* first heading */
+  h1.homepage-heading {
+    font-size: 1.5rem;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  /* second heading */
+  h2.homepage-heading {
+    font-size: 0.7rem;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  /* category headings */
+  .homepage-category-headings {
+    font-size: 1rem;
+    
 @media (max-width: 768px) {
   .homepage-category-headings {
     padding-left: 0; 
@@ -92,6 +124,22 @@ h2.homepage-heading {
 }
 
 @media (max-width: 480px) {
+  /* first heading */
+  h1.homepage-heading {
+    font-size: 1rem;
+  }
+
+  /* second heading */
+  h2.homepage-heading {
+    font-size: 0.5rem;
+  }
+
+  /* category headings */
+  .homepage-category-headings {
+    font-size: 0.5rem;
+  }
+}
+
   h1.homepage-heading {
     font-size: 2rem;
   }
