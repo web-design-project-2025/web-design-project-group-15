@@ -7,7 +7,7 @@ if (!loggedInUser) {
   const username = loggedInUser.username;
   const userFavorites = favoritesData[username] || [];
 
-  fetch("./json/movies.JSON")
+  fetch("../json/movies.JSON")
     .then((response) => response.json())
     .then((data) => {
       const favourites = document.getElementById("favourites");
