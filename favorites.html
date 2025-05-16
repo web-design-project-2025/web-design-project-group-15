@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/favorites.css" />
     <link rel="stylesheet" href="css/reacurring_designs.css" />
-    <link rel="stylesheet" href="css/login.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,9 +24,9 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- header -->
+    <!-- HEADER -->
     <header>
-      <!-- LOGOTYPE -->
+      <!-- logotype -->
       <a href="index.html">
         <img
           id="header-logoIcon"
@@ -35,50 +37,46 @@
       <!---->
 
       <div class="header-text">
-        <!-- TITLE -->
-        <h1 id="header-title">CINEMA COURTROOM</h1>
+        <!-- title -->
+        <a href="index.html" id="header-title-link">
+          <h1 id="header-title">CINEMA COURTROOM</h1>
+        </a>
         <!---->
 
-        <!-- NAVIGATION BAR -->
+        <!-- navigation bar -->
         <nav>
           <ul class="header-ul">
             <li><a id="menu-items" href="categories.html">CATEGORIES</a></li>
             <li><a id="menu-items" href="about.html">ABOUT</a></li>
-            <li><a id="menu-items" href="news.html">NEWS</a></li>
+            <li><a id="menu-items" href="favorites.html">FAVORITES</a></li>
             <li><a id="menu-items" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
         <!---->
       </div>
     </header>
-    <!-- Main -->
+    <!-- MAIN -->
     <main>
-      <h1 class="page-heading">LOGIN</h1>
-      <br />
-      <div class="login-form">
-        <div>
-          <form action="#"></form>
-          <label for="Username">Username:</label>
-          <input id="loginUsername" class="loginSlots" type="text" required />
-        </div>
-        <br />
-        <div>
-          <form action="#"></form>
-          <label for="Username">Password:</label>
-          <input id="loginPassword" class="loginSlots" type="text" required />
-        </div>
-        <br />
-
-        <button id="login-button">
-          <img class="login-img" src="img/LoginButton.png" alt="Login" />
-        </button>
+      <h3 class="page-heading">YOUR FAVORITES</h3>
+      <div class="my-favourites-display" id="favourites">
+        <!-- images will go here -->
       </div>
-      <p class="no-account">
-        No account yet? Create one
-        <a class="hereButton" href="SignUp.html">here.</a>
-      </p>
+      <h2 class="witness-heading">YOUR WITNESS STATEMENT</h2>
+      <h3 class="description-text">
+        <p>You consume and enjoy serious and nostalgic films</p>
+        <p>
+          People like you love to analyze character development and
+          cinematography
+        </p>
+        <p>
+          You have earned the personal title of the
+          <span class="respawn-logo">CINEMA COURTROOM</span> as the:
+        </p>
+      </h3>
     </main>
-    <!-- Footer -->
+    <script src="js/favourites.js"></script>
+
+    <!-- FOOTER -->
     <footer>
       <div class="footer-layout">
         <div>
@@ -128,6 +126,5 @@
         </div>
       </div>
     </footer>
-    <script src="js/login.js"></script>
   </body>
 </html>
