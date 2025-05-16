@@ -44,7 +44,7 @@ h2.homepage-heading {
   margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: center; /* Center the inner content */
+  justify-content: center; 
 }
 
 .homepage-movie-images {
@@ -72,21 +72,21 @@ h2.homepage-heading {
 /* RESPONSIVE LAYOUT */
 @media (max-width: 768px) {
   .homepage-category-headings {
-    padding-left: 0; /* Remove padding to center the heading */
-    text-align: center; /* Center the heading text */
+    padding-left: 0; 
+    text-align: center; 
   }
 
   .carousel-container {
-    max-width: 100%; /* Full width on mobile */
-    padding: 0 10px; /* Add small padding for breathing room */
+    max-width: 100%; 
+    padding: 0 10px; 
   }
 
   .homepage-movie-images {
-    justify-content: center; /* Center the carousel items */
+    justify-content: center; 
   }
 
   .homepage-movie-image {
-    width: 150px; /* Slightly smaller images on mobile */
+    width: 150px; 
     height: 225px;
   }
 }
@@ -102,7 +102,7 @@ h2.homepage-heading {
   }
 
   .homepage-movie-image {
-    width: 120px; /* Even smaller images on very small screens */
+    width: 120px; 
     height: 180px;
   }
 }

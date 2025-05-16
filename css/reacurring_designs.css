@@ -174,7 +174,7 @@ footer {
 
 /* RESPONSIVE LAYOUT */
 
-/* Tablet (max-width: 768px) */
+/* Tablet */
 @media (max-width: 768px) {
   /* Header adjustments */
   header {
@@ -250,7 +250,7 @@ footer {
   }
 }
 
-/* Mobile (max-width: 480px) */
+/* Mobile */
 @media (max-width: 480px) {
   /* Header adjustments */
   header {

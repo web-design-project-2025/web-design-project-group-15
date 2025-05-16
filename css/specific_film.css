@@ -44,10 +44,7 @@
 https://www.w3schools.com/css/css_dropdowns.asp*/
 
 /* ALL DROPDOWN BUTTONS */
-/*.specific-film-buttons {
-  display: flex;
-  flex-direction: column;
-} */
+
 .likeButtonClass {
   background: none;
   border: none;
@@ -214,14 +211,14 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
 
 @media (max-width: 768px) {
   .specific-film-container-1 {
-    grid-template-columns: 1fr; /* Stack columns on tablet */
+    grid-template-columns: 1fr; 
     text-align: center;
   }
   .specific-film-poster-image {
-    margin: 0 auto; /* Center the poster */
+    margin: 0 auto; 
   }
   .opening-arguments,
   .opening-arguments-text {
-    margin-left: 0; /* Remove margin for centered layout */
+    margin-left: 0; 
   }
 }
