@@ -50,6 +50,9 @@ async function loadMovieData() {
       description.evidencePicture;
     document.querySelector(".opening-arguments-text").innerText =
       description.synopsis;
+    document.querySelector(".testimony-text").innerText = description.evidence;
+    document.querySelector(".witness1-text").innerText = description.witness1;
+    document.querySelector(".witness2-text").innerText = description.witness2;
   } else {
     console.error("data not found!");
   }

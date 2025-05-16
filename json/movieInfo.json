@@ -6,7 +6,9 @@
       "synopsis": "Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years.",
       "picture": "img/movie-pictures/shawshank-picture.jpg",
       "evidencePicture": "img/movie-pictures/shawshank-evidence.jpg",
-      "evidence": ""
+      "evidence": "A timeless story of hope, resilience, and the power of the human spirit. With exceptional performances and masterful storytelling, this prison drama remains a cornerstone of modern cinema.",
+      "witness1": "This movie isn't just about escaping prison — it's about escaping despair. It left me in awe. - Witness: 'Hopeful Realist'",
+      "witness2": "Every time I rewatch it, I pick up on another quiet detail. It's layered and full of soul. - Witness: 'Cellblock Critic'"
     },
     {
       "movieID": 2,
@@ -14,7 +16,9 @@
       "synopsis": "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).",
       "picture": "img/movie-pictures/forrest-picture.jpg.webp",
       "evidencePicture": "img/movie-pictures/forrest-evidence.jpg",
-      "evidence": ""
+      "evidence": "A heartfelt epic that blends history, romance, and a simple man's journey through an extraordinary life. Tom Hanks delivers one of the most endearing performances in film history.",
+      "witness1": "Forest might be slow, but the movie is brilliant. It moves you in ways you don't expect. - Witness: 'Sweet Sentimentalist'",
+      "witness2": "This film manages to be funny, tragic, and inspirational — often all at once. - Witness: 'Feather Follower'"
     },
     {
       "movieID": 3,
@@ -22,7 +26,9 @@
       "synopsis": "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.",
       "picture": "img/movie-pictures/godfather-picture.jpg",
       "evidencePicture": "img/movie-pictures/godfather-evidence.jpg",
-      "evidence": ""
+      "evidence": "Widely considered one of the greatest films ever made, The Godfather is a dark, operatic portrait of power, loyalty, and corruption within a crime dynasty.",
+      "witness1": "Cinema doesn’t get more iconic than this. Every line, every look — legendary. - Witness: 'Don Cinephile'",
+      "witness2": "I studied this in film school. It’s basically Shakespeare with guns. - Witness: 'Corleone Scholar'"
     },
     {
       "movieID": 4,
@@ -30,7 +36,9 @@
       "synopsis": "Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson) are hitmen with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is interwoven with those of their boss, gangster Marsellus Wallace (Ving Rhames) ; his actress wife, Mia (Uma Thurman) ; struggling boxer Butch Coolidge (Bruce Willis) ; master fixer Winston Wolfe (Harvey Keitel) and a nervous pair of armed robbers, Pumpkin (Tim Roth) and Honey Bunny (Amanda Plummer).",
       "picture": "img/movie-pictures/pulpfiction-picture.webp",
       "evidencePicture": "img/movie-pictures/pulpfiction-evidence.webp",
-      "evidence": ""
+      "evidence": "Tarantino’s genre-bending masterpiece is chaotic, witty, and violently cool. Non-linear storytelling and razor-sharp dialogue define this cult classic.",
+      "witness1": "It’s like watching a graphic novel come to life — wild, stylish, unforgettable. - Witness: 'Royale Enthusiast'",
+      "witness2": "Even after multiple viewings, I still get chills during the diner scene. - Witness: 'Chronologically Confused'"
     },
     {
       "movieID": 5,
@@ -39,7 +47,9 @@
       "picture": "img/movie-pictures/inception-picture.jpg",
 
       "evidencePicture": "img/movie-pictures/inception-evidence.jpg",
-      "evidence": ""
+      "evidence": "A mind-bending exploration of dreams within dreams, with Nolan's signature flair for spectacle and complexity. Both intellectually engaging and emotionally powerful.",
+      "witness1": "I still don’t know if the top falls, but I know this movie is a masterpiece. - Witness: 'Dream Architect'",
+      "witness2": "Inception made me question my own reality... then rewind the movie immediately. - Witness: 'Totem Spinner'"
     },
     {
       "movieID": 6,
@@ -47,7 +57,9 @@
       "synopsis": "A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.",
       "picture": "img/movie-pictures/fightclub-picture.avif",
       "evidencePicture": "img/movie-pictures/fightclub-evidence.jpg.webp",
-      "evidence": ""
+      "evidence": "A visceral plunge into consumerism, identity, and chaos, Fight Club delivers both psychological depth and cultural rebellion — all wrapped in a bloody fist.",
+      "witness1": "This movie made me want to throw my IKEA catalog in the trash. Still not over the twist. - Existential Bro",
+      "witness2": "I watched it three times before I realized it’s not actually about fighting. - First Rule Violator"
     },
     {
       "movieID": 7,
@@ -55,7 +67,9 @@
       "synopsis": "n Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
       "picture": "img/movie-pictures/interstellar-picture.webp",
       "evidencePicture": "img/movie-pictures/interstellar-evidence.webp",
-      "evidence": ""
+      "evidence": "A breathtaking, emotional journey through time, space, and fatherhood. Nolan blends mind-bending science with raw human heart.",
+      "witness1": "I didn’t know physics could make me cry this hard. - Space Dad Enthusiast",
+      "witness2": "Honestly, I still don’t get the fifth dimension stuff. But I respect it. - Dimensional Drifter"
     },
     {
       "movieID": 8,
@@ -63,7 +77,9 @@
       "synopsis": "To find out if his reality is a physical or mental construct, Mr. Anderson, aka Neo, will have to choose to follow the white rabbit once more. If he's learned anything, it's that choice, while an illusion, is still the only way out of -- or into -- the Matrix. Neo already knows what he has to do, but what he doesn't yet know is that the Matrix is stronger, more secure and far more dangerous than ever before.",
       "picture": "img/movie-pictures/matrix-picture.jpg",
       "evidencePicture": "img/movie-pictures/matrix-evidence.avif",
-      "evidence": ""
+      "evidence": "Meta, messy, and undeniably bold, the latest Matrix installment is a reboot, sequel, and self-aware essay rolled into one glitchy experience.",
+      "witness1": "Was it confusing? Yes. Did I enjoy every Keanu moment anyway? Also yes. - Code Junkie",
+      "witness2": "It’s like the Matrix got therapy and then made a movie about it. - Red Pill Reuser"
     },
     {
       "movieID": 9,
@@ -71,7 +87,9 @@
       "synopsis": "Teenage Cady Heron (Lindsay Lohan) was educated in Africa by her scientist parents. When her family moves to the suburbs of Illinois, Cady finally gets to experience public school and gets a quick primer on the cruel, tacit laws of popularity that divide her fellow students into tightly knit cliques. She unwittingly finds herself in the good graces of an elite group of cool students dubbed 'the Plastics,' but Cady soon realizes how her shallow group of new friends earned this nickname.",
       "picture": "img/movie-pictures/meangirls-picture.jpg",
       "evidencePicture": "img/movie-pictures/meangirls-evidence.jpg",
-      "evidence": ""
+      "evidence": "Mean Girls has cemented its place as one of the most iconic teen comedies of the early 2000s. Known for its sharp wit, memorable quotes, and social commentary, the film explores the cutthroat ecosystem of American high school cliques — all served with a hefty dose of pink and passive aggression.",
+      "witness1": "As a teen in the early 2000s, this movie was the blueprint. Watching it now still cracks me up, but I see it differently as an adult. The social commentary is more clever than I realized back then. — Witness: 'Nostalgic Queen'",
+      "witness2": "Mean Girls was actually assigned in our media studies class. It's kind of genius how it uses comedy to critique conformity. That said, some of the jokes definitely wouldn't fly today. — Witness: 'Woke Watcher'"
     },
     {
       "movieID": 10,
@@ -79,7 +97,9 @@
       "synopsis": "Kat Stratford is beautiful, smart and quite abrasive to most of her fellow teens, meaning that she doesn't attract many boys. Unfortunately for her younger sister, Bianca, house rules say that she can't date until Kat has a boyfriend, so strings are pulled to set the dour damsel up for a romance. Soon Kat crosses paths with handsome new arrival Patrick Verona. Kat may let her guard down enough to fall for the effortlessly charming Patrick.",
       "picture": "img/movie-pictures/10things-picture.jpg",
       "evidencePicture": "img/movie-pictures/10things-evidence.webp",
-      "evidence": ""
+      "evidence": "A clever modern retelling of Shakespeare’s The Taming of the Shrew, this 90s classic blends snarky humor, teen angst, and surprising emotional depth. Heath Ledger's charm and Julia Stiles' fierce independence made it a defining rom-com of its era.",
+      "witness1": "I watched it for the laughs, but stayed for the surprisingly thoughtful message about identity and love. – Witness: 'Lit Class Veteran'",
+      "witness2": "Kat was everything I wanted to be in high school: bold, book-smart, and totally uninterested in impressing anyone. – Witness: 'Rebel at Heart'"
     },
     {
       "movieID": 11,
@@ -87,7 +107,9 @@
       "synopsis": "Despite having an amazing first date, Bea and Ben's initial attraction quickly turns sour. When they unexpectedly find themselves at a destination wedding in Australia, the pair pretend to be the perfect couple to keep up appearances.",
       "picture": "img/movie-pictures/anyonebutyou-picture.jpg",
       "evidencePicture": "img/movie-pictures/anyonebutyou-evidence.jpg",
-      "evidence": ""
+      "evidence": "With sizzling chemistry and snappy dialogue, Anyone But You revitalizes the enemies-to-lovers trope for a new generation. It’s self-aware, chaotic, and surprisingly sweet — all set against dreamy backdrops.",
+      "witness1": "Not gonna lie, I went in expecting cringe, but ended up swooning. The tension was off the charts. – Witness: 'Rom-Com Skeptic'",
+      "witness2": "It's messy in the best way. These characters are disasters, but you root for them anyway. – Witness: 'Love/Hate Believer'"
     },
     {
       "movieID": 12,
@@ -95,7 +117,9 @@
       "synopsis": "An advice columnist, Andie Anderson (Kate Hudson), tries pushing the boundaries of what she can write about in her new piece about how to get a man to leave you in 10 days. Her editor, Lana (Bebe Neuwirth), loves it, and Andie goes off to find a man she can use for the experiment. Enter executive Ben Berry (Matthew McConaughey), who is so confident in his romantic prowess that he thinks he can make any woman fall in love with him in 10 days. When Andie and Ben meet, their plans backfire.",
       "picture": "img/movie-pictures/howtolose-picture.png",
       "evidencePicture": "img/movie-pictures/howtolose-evidence.jpg",
-      "evidence": ""
+      "evidence": "A rom-com rooted in games and manipulation — until real feelings get in the way. Its charm lies in the absurdity of the setup and the undeniable chemistry between Hudson and McConaughey.",
+      "witness1": "This movie is peak early-2000s chaos and I love it for that. It's like watching a stylish car crash in slow motion. – Witness: 'Andie Wannabe'",
+      "witness2": "To this day, I can't hear 'You're So Vain' without thinking of the final scene. – Witness: 'Pop Culture Archivist'"
     },
     {
       "movieID": 13,
@@ -103,7 +127,9 @@
       "synopsis": "Shallow, rich and socially successful Cher (Alicia Silverstone) is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai (Brittany Murphy) a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother (Paul Rudd) was right about how misguided she was -- and falls for him.",
       "picture": "img/movie-pictures/clueless-picture.jpg",
       "evidencePicture": "img/movie-pictures/clueless-evidence.webp",
-      "evidence": ""
+      "evidence": "A Beverly Hills twist on Emma, Clueless remains a cultural touchstone. It gave us iconic fashion, quotable lines, and a protagonist who was way smarter than she seemed.",
+      "witness1": "Ugh, as if I wouldn’t include this in my all-time faves. It’s pure 90s perfection. – Witness: 'Valley Girl Philosopher'",
+      "witness2": "Cher’s growth is so underrated. She starts off clueless, but ends up genuinely caring. – Witness: 'Softie with Style'"
     },
     {
       "movieID": 14,
@@ -111,7 +137,9 @@
       "synopsis": "Prompted by her popular best friend to spill details of her boring weekend, Olive, a clean-cut teen, decides to spice things up by telling a little lie about losing her virginity; when the high-school busybody overhears the conversation and spreads it all over campus, Olive is suddenly notorious but for the wrong reasons.",
       "picture": "img/movie-pictures/easya-picture.webp",
       "evidencePicture": "img/movie-pictures/easya-evidence.jpeg",
-      "evidence": ""
+      "evidence": "This high school satire flips the slut-shaming script with a sharp script, fourth-wall breaks, and Emma Stone’s breakout performance. Think Scarlet Letter meets Mean Girls, but smarter.",
+      "witness1": "Olive deserved an Oscar for that pocket full of sarcasm and soul. She carried this movie. – Witness: 'Snark Enthusiast'",
+      "witness2": "It actually made me Google The Scarlet Letter. No notes. – Witness: 'Reluctant Lit Nerd'"
     },
     {
       "movieID": 15,
@@ -119,7 +147,9 @@
       "synopsis": "Tom (Joseph Gordon-Levitt), greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer (Zooey Deschanel), suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life.",
       "picture": "img/movie-pictures/500days-picture.jpg",
       "evidencePicture": "img/movie-pictures/500days-evidence.jpg",
-      "evidence": ""
+      "evidence": "More breakup than love story, 500 Days subverts the romantic comedy blueprint with nonlinear storytelling and an honest look at mismatched expectations.",
+      "witness1": "This movie hit different once I got older and realized Summer wasn't the villain. – Witness: 'Jaded Dreamer'",
+      "witness2": "Tom needed therapy, not a girlfriend. But I still love the IKEA date scene. – Witness: 'Cynical Romantic'"
     },
     {
       "movieID": 16,
@@ -127,7 +157,9 @@
       "synopsis": "Frumpy high-school senior Bianca (Mae Whitman) has a rude awakening when she learns that her classmates secretly know her as the DUFF -- designated ugly fat friend -- to her prettier and more popular pals. Desperate to reinvent herself, Bianca enlists the aid of Wesley (Robbie Amell), a charming jock. In order to save her senior year from becoming a complete disaster, Bianca must find the confidence to overthrow a judgmental student (Bella Thorne) and revolutionize the school's social order.",
       "picture": "img/movie-pictures/duff-picture.jpg",
       "evidencePicture": "img/movie-pictures/duff-evidence.webp",
-      "evidence": ""
+      "evidence": "A sharp, self-aware teen comedy that embraces clichés while turning them on their head. It’s funny, empowering, and surprisingly heartfelt beneath the memes.",
+      "witness1": "It nailed the pressure of labels in high school. Plus, I now proudly identify as a DUFF. – Witness: 'Designated Ugly Fun Friend'",
+      "witness2": "More sincere than it looks. The message is strong — and the jokes land. – Witness: 'Closet Sentimentalist'"
     },
     {
       "movieID": 17,
@@ -135,7 +167,9 @@
       "synopsis": "Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become 'normal' like the other emojis, Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, the three emojis discover a great danger that could threaten their phone's very existence.",
       "picture": "img/movie-pictures/emoji-picture.webp",
       "evidencePicture": "img/movie-pictures/emoji-evidence.jpg",
-      "evidence": ""
+      "evidence": "Often cited as a low point in animated storytelling, The Emoji Movie is a chaotic blend of brand plugs, bizarre plotlines, and questionable life lessons. Still, for better or worse, it’s hard to forget — and for some, it’s a guilty pleasure wrapped in a yellow grin.",
+      "witness1": "I watched it ironically the first time… now I quote it unironically. That’s the danger of meme culture, I guess. - Witness: 'Irony Victim'",
+      "witness2": "My kid made me rewatch this five times. I can now recite the entire thing in my sleep. Please send help. - Witness: 'Parent on Loop'"
     },
     {
       "movieID": 18,
@@ -143,7 +177,9 @@
       "synopsis": "WALL-E, short for Waste Allocation Load Lifter Earth-class, is the last robot left on Earth. He spends his days tidying up the planet, one piece of garbage at a time. But during 700 years, WALL-E has developed a personality, and he's more than a little lonely. Then he spots EVE, a sleek and shapely probe sent back to Earth on a scanning mission. Smitten WALL-E embarks on an adventure when he follows EVE across the galaxy.",
       "picture": "img/movie-pictures/walle-picture.jpg",
       "evidencePicture": "img/movie-pictures/walle-evidence.jpeg",
-      "evidence": ""
+      "evidence": "With minimal dialogue and maximum heart, Wall-E delivers a powerful environmental message wrapped in a love story between two robots. It’s one of Pixar’s boldest and most emotionally resonant films, reminding us that even in a future full of trash, hope can grow.",
+      "witness1": "I didn’t expect to cry over a trash-compacting robot. But here we are. - Witness: 'Emotional Recycler'",
+      "witness2": "Wall-E and Eve have more chemistry than most real-life couples. No notes. - Witness: 'Hopelessly Robantic'"
     },
     {
       "movieID": 19,
@@ -151,7 +187,9 @@
       "synopsis": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
       "picture": "img/movie-pictures/lionking-picture.jpeg",
       "evidencePicture": "img/movie-pictures/lionking-evidence.webp",
-      "evidence": ""
+      "evidence": "A sweeping animated epic with unforgettable songs and deep emotional resonance, The Lion King tackles themes of identity, legacy, and grief — all in a kid-friendly package. Scar's villainy, Mufasa’s fall, and Simba’s return still hit decades later.",
+      "witness1": "Scar scared me more than any horror movie villain. That voice? Iconic and terrifying. - Witness: 'Childhood Traumatized'",
+      "witness2": "I thought Hakuna Matata was just a fun song until I realized it’s also how I deal with problems now. - Witness: 'Avoidant Adult'"
     },
     {
       "movieID": 20,
@@ -159,7 +197,9 @@
       "synopsis": "Young Chicken Little (Mark Dindal) throws his small town into panic by claiming the sky is falling. Unable to find the piece of 'sky' that hit him, he earns the town's scorn. A year later, outcast Little tries to redeem himself by joining the baseball team, helping to win a crucial game. Later that night he is hit on the head again and discovers that the 'falling sky' is actually from a UFO. Now, Little must convince the skeptical town that an alien invasion is about to happen.",
       "picture": "img/movie-pictures/chicken-picture.jpg",
       "evidencePicture": "img/movie-pictures/chicken-evidence.jpeg",
-      "evidence": ""
+      "evidence": "A quirky mix of anxiety, aliens, and underdog redemption, Chicken Little is one of Disney’s more offbeat experiments. While not a critical darling, its chaos has earned it a cult following among fans who appreciate its weirdness.",
+      "witness1": "It feels like a fever dream — but in a kind of lovable, mid-2000s way. - Witness: 'Animated Chaos Aficionado'",
+      "witness2": "I related to Chicken Little way too much. Just a small dude panicking while the world ignores him. - Witness: 'Anxious Icon'"
     },
     {
       "movieID": 21,
@@ -167,7 +207,9 @@
       "synopsis": "Hiccup (Chris Sanders) is a Norse teenager from the island of Berk, where fighting dragons is a way of life. His progressive views and weird sense of humor make him a misfit, despite the fact that his father (Dean DeBlois) is chief of the clan. Tossed into dragon-fighting school, he endeavors to prove himself as a true Viking, but when he befriends an injured dragon he names Toothless, he has the chance to plot a new course for his people's future.",
       "picture": "img/movie-pictures/traindragon-picture.avif",
       "evidencePicture": "img/movie-pictures/traindragon-evidence.jxl",
-      "evidence": ""
+      "evidence": "This touching tale of an unlikely friendship between a Viking boy and a dragon is visually stunning and emotionally grounded. How To Train Your Dragon soars thanks to its breathtaking animation, heartfelt story, and one very lovable dragon.",
+      "witness1": "The flying scenes made me feel like I was in the clouds. Toothless is my emotional support animal. - Witness: 'Sky Rider at Heart'",
+      "witness2": "I love how it flips the whole 'slay the dragon' thing. Sometimes, bonding is more powerful than battling. - Witness: 'Reformed Fighter'"
     },
     {
       "movieID": 22,
@@ -175,7 +217,9 @@
       "synopsis": "Evolving from single-celled yellow organisms at the dawn of time, Minions live to serve, but find themselves working for a continual series of unsuccessful masters, from T. Rex to Napoleon. Without a master to grovel for, the Minions fall into a deep depression. But one minion, Kevin, has a plan; accompanied by his pals Stuart and Bob, Kevin sets forth to find a new evil boss for his brethren to follow. Their search leads them to Scarlet Overkill, the world's first-ever super-villainess.",
       "picture": "img/movie-pictures/minions-picture.webp",
       "evidencePicture": "img/movie-pictures/minions-evidence.jpg",
-      "evidence": ""
+      "evidence": "A chaotic spin-off that doubles down on slapstick and silliness, Minions is loud, bright, and absolutely bananas — and that’s exactly why it works for some. Whether you love or loathe them, these yellow agents of mayhem have become iconic.",
+      "witness1": "It’s just nonsense. Glorious, high-pitched, banana-fueled nonsense. - Witness: 'Certified Minion Maniac'",
+      "witness2": "My grandma and my niece were both cackling. That’s rare cinema magic right there. - Witness: 'Multigenerational Fan'"
     },
     {
       "movieID": 23,
@@ -183,7 +227,9 @@
       "synopsis": "Emmet (Chris Pratt), an ordinary LEGO figurine who always follows the rules, is mistakenly identified as the Special -- an extraordinary being and the key to saving the world. He finds himself drafted into a fellowship of strangers who are on a mission to stop an evil tyrant's (Will Ferrell) plans to conquer the world. Unfortunately for Emmet, he is hopelessly -- and hilariously -- unprepared for such a task, but he'll give it his all nonetheless.",
       "picture": "img/movie-pictures/lego-picture.jpeg",
       "evidencePicture": "img/movie-pictures/lego-evidence.jpg",
-      "evidence": ""
+      "evidence": "An explosion of color, comedy, and creativity, The Lego Movie turns what should’ve been a shameless toy ad into a surprisingly smart, heartwarming story. Meta, meaningful, and endlessly quotable — everything really is awesome.",
+      "witness1": "I came for the Lego chaos, stayed for the emotional gut punch about growing up. - Witness: 'Brick-By-Brick Believer'",
+      "witness2": "It’s kind of genius how it critiques conformity using literal building blocks. - Witness: 'Plastic Philosopher'"
     },
     {
       "movieID": 24,
@@ -191,7 +237,9 @@
       "synopsis": "Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.",
       "picture": "img/movie-pictures/frozen-picture.jpg",
       "evidencePicture": "img/movie-pictures/frozen-evidence.webp",
-      "evidence": ""
+      "evidence": "Darker and more introspective than the first, Frozen II dives into the past to explore change, responsibility, and self-discovery. With magical visuals and power ballads to spare, it proves that letting go was only the beginning.",
+      "witness1": "I still sing 'Into the Unknown' like it’s my personal anthem. Shower concerts only. - Witness: 'Elsa Impersonator'",
+      "witness2": "The visuals were stunning, but it was the themes of legacy and identity that really hit me this time. - Witness: 'Thoughtful Sister'"
     }
   ]
 }
