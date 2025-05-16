@@ -63,8 +63,7 @@
 }
 
 /* RESPONSIVE LAYOUT */
-
-/* Tablet and Mobile */
+/* Tablet */
 @media (max-width: 768px) {
   .about-founders-images {
     padding: 1rem 0;

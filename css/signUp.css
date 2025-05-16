@@ -1,3 +1,5 @@
+/* ----- SIGN UP PAGE ----- */
+
 main {
   align-content: center;
 }
@@ -38,6 +40,7 @@ main {
   cursor: pointer;
 }
 /* RESPONSIVE LAYOUT */
+/* Tablet */
 @media (max-width: 768px) {
   .signUp-form {
     font-size: 20px;
@@ -55,6 +58,7 @@ main {
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
   .signUp-form {
     font-size: 15px;
