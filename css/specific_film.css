@@ -56,6 +56,7 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
 .likeImg {
   width: 70px;
   height: auto;
+  cursor: pointer;
 }
 
 /* "EVIDENCE" DROPDOWN */
@@ -232,14 +233,14 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
     flex-direction: row;
     justify-content: center;
 
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     text-align: center;
   }
   .specific-film-poster-image {
-    margin: 0 auto; 
+    margin: 0 auto;
   }
   .opening-arguments,
   .opening-arguments-text {
-    margin-left: 0; 
+    margin-left: 0;
   }
 }

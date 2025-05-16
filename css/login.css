@@ -28,6 +28,7 @@ main {
 }
 .login-img {
   height: 70px;
+  cursor: pointer;
 }
 .no-account {
   text-align: center;

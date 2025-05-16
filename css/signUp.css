@@ -18,9 +18,7 @@ main {
   height: 70px;
   padding: 0;
   border: 0;
-}
-.login-img {
-  height: 70px;
+  cursor: pointer;
 }
 
 .loginSlots {
