@@ -1,4 +1,4 @@
-fetch("./json/movies.json")
+fetch("./json/movies.JSON")
   .then((response) => response.json())
   .then((data) => {
     const chickFlick = document.getElementById("chickFlick");

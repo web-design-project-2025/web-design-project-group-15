@@ -1,5 +1,5 @@
 //getting the info drom the json files
-fetch("./json/movies.json")
+fetch("./json/movies.JSON")
   .then((response) => response.json())
   .then((data) => {
     const recentVerdicts = document.getElementById("recent-verdicts");

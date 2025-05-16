@@ -24,7 +24,7 @@ function getDescriptionById(descArray, id) {
   return descArray.find((desc) => desc.movieID === id);
 }
 async function loadMovieData() {
-  const catalogResponse = await fetch("./json/movies.json");
+  const catalogResponse = await fetch("./json/movies.JSON");
   const movieCatalog = await catalogResponse.json();
   movies = movieCatalog.catalog;
 
