@@ -24,11 +24,11 @@ function getDescriptionById(descArray, id) {
   return descArray.find((desc) => desc.movieID === id);
 }
 async function loadMovieData() {
-  const catalogResponse = await fetch("json/movies.json");
+  const catalogResponse = await fetch("../json/movies.json");
   const movieCatalog = await catalogResponse.json();
   movies = movieCatalog.catalog;
 
-  const infoResponse = await fetch("json/movieInfo.json");
+  const infoResponse = await fetch("../json/movieInfo.json");
   const movieDescription = await infoResponse.json();
   descriptions = movieDescription.descriptions;
 
