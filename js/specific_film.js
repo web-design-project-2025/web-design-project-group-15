@@ -1,9 +1,3 @@
-// like Button
-const likeButton = document.getElementById("likeButton");
-const likeHeart = document.getElementById("likeHeart");
-
-const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
-const favorites = JSON.parse(localStorage.getItem("favorites")) || {};
 /* "EVIDENCE" BUTTON */
 const evidenceButton = document.querySelector(".evidence");
 const evidenceDropDown = document.querySelector(".dropdown-evidence");
@@ -46,7 +40,7 @@ async function loadMovieData() {
     const userFavorites = favorites[username] || [];
 
     if (userFavorites.includes(filmID)) {
-      likeHeart.src = "../img/redHeart.png";
+      likeHeart.src = "./img/redHeart.png";
     }
   }
 
@@ -83,6 +77,13 @@ async function loadMovieData() {
 }
 
 loadMovieData();
+
+// like Button
+const likeButton = document.getElementById("likeButton");
+const likeHeart = document.getElementById("likeHeart");
+
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+const favorites = JSON.parse(localStorage.getItem("favorites")) || {};
 
 likeButton.addEventListener("click", () => {
   if (!loggedInUser) {
