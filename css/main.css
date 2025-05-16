@@ -3,7 +3,7 @@ body {
 }
 
 main {
-  background-image: url("/img/courtroom.png");
+  background-image: url("../img/courtroom.png");
   background-size: contain;
   background-position: center top;
   padding-top: 2%;
