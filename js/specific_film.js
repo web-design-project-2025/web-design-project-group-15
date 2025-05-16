@@ -44,6 +44,14 @@ async function loadMovieData() {
   } else {
     console.error("Movie not found!");
   }
+  const verdictImage = document.querySelector(".specific-film-verdict-image");
+  if (movie.category === "Serious Caroussel") {
+    verdictImage.src = "img/classic.png";
+  } else if (movie.category === "Girly Caroussel") {
+    verdictImage.src = "img/chickflick.png";
+  } else if (movie.category === "Nostalgic Caroussel") {
+    verdictImage.src = "img/kids.png";
+  }
 
   if (description) {
     document.querySelector(".specific-film-movie-image").src =
