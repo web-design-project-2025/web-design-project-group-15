@@ -79,7 +79,7 @@
   padding: 10px 0;
   scrollbar-width: none;
   gap: 10px;
-  scroll-behavior: smooth; /* Set smooth scrolling by default */
+  scroll-behavior: smooth; 
 }
 
 .homepage-movie-images::-webkit-scrollbar {

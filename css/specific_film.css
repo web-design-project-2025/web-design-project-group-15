@@ -44,10 +44,7 @@
 https://www.w3schools.com/css/css_dropdowns.asp*/
 
 /* ALL DROPDOWN BUTTONS */
-/*.specific-film-buttons {
-  display: flex;
-  flex-direction: column;
-} */
+
 .likeButtonClass {
   background: none;
   border: none;
@@ -234,5 +231,15 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
   .appeal-buttons {
     flex-direction: row;
     justify-content: center;
+
+    grid-template-columns: 1fr; 
+    text-align: center;
+  }
+  .specific-film-poster-image {
+    margin: 0 auto; 
+  }
+  .opening-arguments,
+  .opening-arguments-text {
+    margin-left: 0; 
   }
 }

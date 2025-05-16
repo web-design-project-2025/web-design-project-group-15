@@ -43,6 +43,8 @@ h2.homepage-heading {
   max-width: 1330px;
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  justify-content: center; 
 }
 
 .homepage-movie-images {
@@ -99,6 +101,25 @@ h2.homepage-heading {
   /* category headings */
   .homepage-category-headings {
     font-size: 1rem;
+    
+@media (max-width: 768px) {
+  .homepage-category-headings {
+    padding-left: 0; 
+    text-align: center; 
+  }
+
+  .carousel-container {
+    max-width: 100%; 
+    padding: 0 10px; 
+  }
+
+  .homepage-movie-images {
+    justify-content: center; 
+  }
+
+  .homepage-movie-image {
+    width: 150px; 
+    height: 225px;
   }
 }
 
@@ -116,5 +137,20 @@ h2.homepage-heading {
   /* category headings */
   .homepage-category-headings {
     font-size: 0.5rem;
+  }
+}
+
+  h1.homepage-heading {
+    font-size: 2rem;
+  }
+
+  h2.homepage-heading {
+    font-size: 1.2rem;
+    margin-bottom: 20%;
+  }
+
+  .homepage-movie-image {
+    width: 120px; 
+    height: 180px;
   }
 }

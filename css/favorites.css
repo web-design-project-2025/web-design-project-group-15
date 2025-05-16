@@ -41,6 +41,10 @@
   font-size: 1rem;
 }
 
+.movie-poster {
+  width: 300px; 
+}
+
 .respawn-logo {
   font-family: "Abril Fatface", serif;
   font-style: bold;

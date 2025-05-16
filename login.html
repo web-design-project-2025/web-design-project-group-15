@@ -45,7 +45,8 @@
             <li><a id="menu-items" href="categories.html">CATEGORIES</a></li>
             <li><a id="menu-items" href="about.html">ABOUT</a></li>
             <li><a id="menu-items" href="news.html">NEWS</a></li>
-            <li><a id="menu-items" href="login.html">LOGIN</a></li>
+            <li><a id="menu-items" href="favorites.html">FAVORITES</a></li>
+            <li><a id="account-menu" href="login.html">ACCOUNT</a></li>
           </ul>
         </nav>
         <!---->
@@ -70,13 +71,24 @@
         <br />
 
         <button id="login-button">
-          <img class="login-img" src="img/LoginButton.png" alt="Login" />
+          <img class="login-img" src="img/login.png" alt="Login" />
         </button>
       </div>
-      <p class="no-account">
-        No account yet? Create one
-        <a class="hereButton" href="SignUp.html">here.</a>
-      </p>
+      <div
+        id="logoutSection"
+        style="display: none; text-align: center; margin-top: 2rem"
+      >
+        <p id="loggedInAs"></p>
+        <button id="logoutButton">
+          <img class="login-img" src="img/logout.png" alt="logout" />
+        </button>
+      </div>
+      <div id="noAccountMsg">
+        <p class="no-account">
+          No account yet? Create one
+          <a class="hereButton" href="SignUp.html">here.</a>
+        </p>
+      </div>
     </main>
     <!-- Footer -->
     <footer>
