@@ -5,7 +5,6 @@ fetch("json/movies.json")
     const horror = document.getElementById("horror");
     const nostalgic = document.getElementById("nostalgic");
     const serious = document.getElementById("serious");
-
     const loadImagesPromises = [];
 
     data.catalog.forEach((movie) => {
