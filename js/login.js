@@ -1,7 +1,7 @@
 const loginButton = document.getElementById("login-button");
 
 if (loginButton) {
-  loginBtn.addEventListener("click", () => {
+  loginButton.addEventListener("click", () => {
     const username = document.getElementById("loginUsername").value.trim();
     const password = document.getElementById("loginPassword").value;
 

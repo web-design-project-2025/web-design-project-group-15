@@ -2,6 +2,8 @@
 const evidenceButton = document.querySelector(".evidence");
 const evidenceDropDown = document.querySelector(".dropdown-evidence");
 
+let filmID;
+
 evidenceButton.addEventListener("click", function (event) {
   evidenceDropDown.classList.toggle("dropdown-evidence-show");
 });
@@ -32,7 +34,7 @@ async function loadMovieData() {
 
   const param = window.location.search;
   const urlParams = new URLSearchParams(param);
-  const filmID = parseInt(urlParams.get("id"));
+  filmID = parseInt(urlParams.get("id"));
 
   const movie = getMovieById(movies, filmID);
   const description = getDescriptionById(descriptions, filmID);
@@ -56,3 +58,41 @@ async function loadMovieData() {
 }
 
 loadMovieData();
+
+// like Button
+const likeButton = document.getElementById("likeButton");
+const likeHeart = document.getElementById("likeHeart");
+
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+const favorites = JSON.parse(localStorage.getItem("favorites")) || {};
+
+if (loggedInUser) {
+  const username = loggedInUser.username;
+  const userFavorites = favorites[username] || [];
+
+  if (userFavorites.includes(filmID)) {
+    likeHeart.src = "img/redHeart.png";
+  }
+}
+
+likeButton.addEventListener("click", () => {
+  if (!loggedInUser) {
+    alert("Please log in to like movies.");
+    return;
+  }
+
+  const username = loggedInUser.username;
+  const userFavorites = favorites[username] || [];
+  const isFavorited = userFavorites.includes(filmID);
+
+  if (isFavorited) {
+    userFavorites.splice(userFavorites.indexOf(filmID), 1);
+    likeHeart.src = "img/emptyHeart.png";
+  } else {
+    userFavorites.push(filmID);
+    likeHeart.src = "img/redHeart.png";
+  }
+
+  favorites[username] = userFavorites;
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+});

@@ -48,6 +48,18 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
   display: flex;
   flex-direction: column;
 } */
+.likeButtonClass {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.likeImg {
+  width: 70px;
+  height: auto;
+}
 
 /* "EVIDENCE" DROPDOWN */
 /* button */

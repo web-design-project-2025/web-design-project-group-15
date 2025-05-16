@@ -6,7 +6,6 @@
 
     <link rel="stylesheet" href="css/specific_film.css" />
     <link rel="stylesheet" href="css/reacurring_designs.css" />
-    <script src="js/specific_film.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,6 +49,7 @@
             <li><a id="menu-items" href="categories.html">CATEGORIES</a></li>
             <li><a id="menu-items" href="about.html">ABOUT</a></li>
             <li><a id="menu-items" href="news.html">NEWS</a></li>
+            <li><a id="menu-items" href="favorites.html">FAVORITES</a></li>
             <li><a id="menu-items" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
@@ -61,6 +61,14 @@
       <!-- <div class="specific-film-movie-image"></div> -->
       <img class="specific-film-movie-image" src="" alt="Film Poster" />
       <h1 class="page-heading"></h1>
+      <button id="likeButton" class="likeButtonClass">
+        <img
+          id="likeHeart"
+          src="img/emptyHeart.png"
+          alt="Like Button"
+          class="likeImg"
+        />
+      </button>
 
       <!-- container 1 -->
       <div class="specific-film-container-1">
@@ -197,5 +205,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/specific_film.js" defer></script>
   </body>
 </html>
