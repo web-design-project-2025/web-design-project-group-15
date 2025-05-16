@@ -35,6 +35,14 @@ async function loadMovieData() {
   const param = window.location.search;
   const urlParams = new URLSearchParams(param);
   filmID = parseInt(urlParams.get("id"));
+  if (loggedInUser) {
+    const username = loggedInUser.username;
+    const userFavorites = favorites[username] || [];
+
+    if (userFavorites.includes(filmID)) {
+      likeHeart.src = "img/redHeart.png";
+    }
+  }
 
   const movie = getMovieById(movies, filmID);
   const description = getDescriptionById(descriptions, filmID);
@@ -76,15 +84,6 @@ const likeHeart = document.getElementById("likeHeart");
 
 const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
 const favorites = JSON.parse(localStorage.getItem("favorites")) || {};
-
-if (loggedInUser) {
-  const username = loggedInUser.username;
-  const userFavorites = favorites[username] || [];
-
-  if (userFavorites.includes(filmID)) {
-    likeHeart.src = "img/redHeart.png";
-  }
-}
 
 likeButton.addEventListener("click", () => {
   if (!loggedInUser) {
