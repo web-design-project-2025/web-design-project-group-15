@@ -210,18 +210,29 @@ https://www.w3schools.com/css/css_dropdowns.asp*/
 .appeal-buttons button:hover {
   background-color: rgb(39, 37, 113);
 }
-/* RESPONSIVE LAYOUT */
 
+/* RESPONSIVE LAYOUT */
 @media (max-width: 768px) {
   .specific-film-container-1 {
-    grid-template-columns: 1fr; /* Stack columns on tablet */
+    grid-template-columns: 1fr;
     text-align: center;
   }
   .specific-film-poster-image {
-    margin: 0 auto; /* Center the poster */
+    margin: 0 auto;
+    margin-top: 5%;
   }
   .opening-arguments,
   .opening-arguments-text {
-    margin-left: 0; /* Remove margin for centered layout */
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: start;
+  }
+
+  .appeal-content {
+    flex-direction: column;
+  }
+  .appeal-buttons {
+    flex-direction: row;
+    justify-content: center;
   }
 }
