@@ -16,43 +16,43 @@
       "movieID": 3,
       "movieName": "The Godfather",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/theGodfather.jpg"
+      "poster": "img/Posters/TheGodfather.jpg"
     },
     {
       "movieID": 4,
       "movieName": "Pulp Fiction",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/pulpFiction.jpg"
+      "poster": "img/Posters/PulpFiction.jpg"
     },
     {
       "movieID": 5,
       "movieName": "Inception",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/inception.JPG"
+      "poster": "img/Posters/Inception.JPG"
     },
     {
       "movieID": 6,
       "movieName": "Fight Club",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/fightClub.jpg"
+      "poster": "img/Posters/FightClub.jpg"
     },
     {
       "movieID": 7,
       "movieName": "Interstellar",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/interstellar.jpg"
+      "poster": "img/Posters/Interstellar.jpg"
     },
     {
       "movieID": 8,
       "movieName": "The Matrix Resurrections",
       "category": "Serious Caroussel",
-      "poster": "img/Posters/theMatrixResurrections.jpg"
+      "poster": "img/Posters/TheMatrixResurrections.jpg"
     },
     {
       "movieID": 9,
       "movieName": "Mean Girls",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/meanGirls.jpg"
+      "poster": "img/Posters/MeanGirls.jpg"
     },
     {
       "movieID": 10,
@@ -64,25 +64,25 @@
       "movieID": 11,
       "movieName": "Anyone But You",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/anyoneButYou.jpg"
+      "poster": "img/Posters/AnyoneButYou.jpg"
     },
     {
       "movieID": 12,
       "movieName": "How To Lose A Guy In 10 Days",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/howToLoseAGuyIn10Days.jpg"
+      "poster": "img/Posters/HowToLoseAGuyIn10Days.jpg"
     },
     {
       "movieID": 13,
       "movieName": "Cluelsess",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/clueless.jpg"
+      "poster": "img/Posters/Clueless.jpg"
     },
     {
       "movieID": 14,
       "movieName": "Easy A",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/easyA.jpg"
+      "poster": "img/Posters/EasyA.jpg"
     },
     {
       "movieID": 15,
@@ -94,55 +94,55 @@
       "movieID": 16,
       "movieName": "The Duff",
       "category": "Girly Caroussel",
-      "poster": "img/Posters/theDuff.jpg"
+      "poster": "img/Posters/TheDuff.jpg"
     },
     {
       "movieID": 17,
       "movieName": "The Emoji Movie",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/theEmojiMovie.jpg"
+      "poster": "img/Posters/TheEmojiMovie.jpg"
     },
     {
       "movieID": 18,
       "movieName": "Wall-E",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/wallE.jpg"
+      "poster": "img/Posters/WallE.jpg"
     },
     {
       "movieID": 19,
       "movieName": "The Lion King",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/theLionKing.jpg"
+      "poster": "img/Posters/TheLionKing.jpg"
     },
     {
       "movieID": 20,
       "movieName": "Chicken Little",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/chickenLittle.jpg"
+      "poster": "img/Posters/ChickenLittle.jpg"
     },
     {
       "movieID": 21,
       "movieName": "How To Train Your Dragon",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/howToTrainYourDragon.jpg"
+      "poster": "img/Posters/HowToTrainYourDragon.jpg"
     },
     {
       "movieID": 22,
       "movieName": "Minions",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/minions.jpg"
+      "poster": "img/Posters/Minions.jpg"
     },
     {
       "movieID": 23,
       "movieName": "The Lego Movie",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/theLegoMovie.jpg"
+      "poster": "img/Posters/TheLegoMovie.jpg"
     },
     {
       "movieID": 24,
       "movieName": "Frozen II",
       "category": "Nostalgic Caroussel",
-      "poster": "img/Posters/frozen2.jpg"
+      "poster": "img/Posters/Frozen2.jpg"
     }
   ]
 }
