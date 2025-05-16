@@ -32,3 +32,6 @@ if (loginButton) {
     }
   });
 }
+
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+const accountMenu = document.getElementById("account-menu");
