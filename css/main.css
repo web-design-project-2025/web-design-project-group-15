@@ -40,18 +40,19 @@ h2.homepage-heading {
 
 /* CAROUSEL STYLES */
 .carousel-container {
-  max-width: 1330px; 
+  max-width: 1330px;
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  justify-content: center; /* Center the inner content */
 }
 
 .homepage-movie-images {
   display: flex;
   white-space: nowrap;
-  width: 90%; 
   padding: 10px 0;
-  overflow-x: auto; 
-  overflow-y: hidden; 
+  overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
 
@@ -61,9 +62,47 @@ h2.homepage-heading {
 
 .homepage-movie-image {
   flex: 0 0 auto;
-  width: 200px; 
+  width: 200px;
   height: 300px;
   object-fit: cover;
-  margin-right: 5px; 
+  margin-right: 5px;
   transition: transform 0.5s ease;
+}
+
+/* RESPONSIVE LAYOUT */
+@media (max-width: 768px) {
+  .homepage-category-headings {
+    padding-left: 0; /* Remove padding to center the heading */
+    text-align: center; /* Center the heading text */
+  }
+
+  .carousel-container {
+    max-width: 100%; /* Full width on mobile */
+    padding: 0 10px; /* Add small padding for breathing room */
+  }
+
+  .homepage-movie-images {
+    justify-content: center; /* Center the carousel items */
+  }
+
+  .homepage-movie-image {
+    width: 150px; /* Slightly smaller images on mobile */
+    height: 225px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1.homepage-heading {
+    font-size: 2rem;
+  }
+
+  h2.homepage-heading {
+    font-size: 1.2rem;
+    margin-bottom: 20%;
+  }
+
+  .homepage-movie-image {
+    width: 120px; /* Even smaller images on very small screens */
+    height: 180px;
+  }
 }
