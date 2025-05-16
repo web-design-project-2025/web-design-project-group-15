@@ -33,7 +33,10 @@ main {
   font-size: 18px;
   display: flex;
 }
-
+.login-img {
+  height: 70px;
+  cursor: pointer;
+}
 /* RESPONSIVE LAYOUT */
 @media (max-width: 768px) {
   .signUp-form {
