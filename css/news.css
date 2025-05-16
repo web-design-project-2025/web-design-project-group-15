@@ -1,14 +1,3 @@
-.page-heading {
-  font-family: 'Special Elite', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2rem;
-  color: rgb(221, 219, 241);
-  text-align: center;
-  margin: 2rem 0;
-  text-transform: uppercase;
-}
-
 .articles-container {
   max-width: 800px;
   margin: 0 auto;
@@ -38,7 +27,7 @@
 }
 
 .article-date {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: 400;
   font-size: 0.9rem;
@@ -47,7 +36,7 @@
 }
 
 .article-body {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -62,7 +51,7 @@
 }
 
 .movie-title {
-  font-family: 'Special Elite', serif;
+  font-family: "Special Elite", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -80,7 +69,7 @@
 }
 
 .respawn-logo {
-  font-family: 'Abril Fatface', serif;
+  font-family: "Abril Fatface", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -96,11 +85,11 @@
 }
 
 .article-text {
-  flex: 1; 
+  flex: 1;
 }
 
 .movie-poster {
-  width: 300px; 
+  width: 300px;
   height: auto;
   border: 3px solid rgb(242, 166, 24);
   border-radius: 10px;
