@@ -40,7 +40,7 @@ async function loadMovieData() {
     const userFavorites = favorites[username] || [];
 
     if (userFavorites.includes(filmID)) {
-      likeHeart.src = "img/redHeart.png";
+      likeHeart.src = "../img/redHeart.png";
     }
   }
 
