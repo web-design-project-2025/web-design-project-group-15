@@ -53,6 +53,7 @@ main {
 }
 
 /* RESPONSIVE LAYOUT */
+/* Tablet */
 @media (max-width: 768px) {
   .login-form {
     font-size: 20px;
@@ -70,6 +71,7 @@ main {
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
   .login-form {
     font-size: 15px;

@@ -105,7 +105,7 @@
 }
 
 /* RESPONSIVE LAYOUT */
-
+/* Tablet */
 @media (max-width: 768px) {
   .articles-container {
     padding: 0 10px;
@@ -124,6 +124,7 @@
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
   .movie-poster {
     width: 100%; /* Ensure it fits on very small screens */
